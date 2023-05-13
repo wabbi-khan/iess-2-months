@@ -73,4 +73,21 @@ class InstitutesController extends Controller
                 'Institute is deleted successfully!'
             );
     }
+
+
+    // ? campus routes work
+    public function add_campus(Request $request)
+    {
+        $pagename = 'Add Campus';
+        return view('main_super_admin.dashboard.campus.campus_form', [
+            'pagename' => $pagename,
+        ]);
+    }
+    public function all_campus(Request $request)
+    {
+        $pagename = 'All Campus';
+        return view('main_super_admin.dashboard.campus.all_campus', [
+            'pagename' => $pagename,
+        ]);
+    }
 }

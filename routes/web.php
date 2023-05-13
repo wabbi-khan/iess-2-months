@@ -25,3 +25,7 @@ Route::get('/all-institute', [InstitutesController::class, 'all_institute'])->na
 Route::get('/view-institute/{view}', [InstitutesController::class, 'view_institute'])->name('view-institute');
 Route::get('/delete-institute/{delete}', [InstitutesController::class, 'delete_institute'])->name('delete-institute');
 
+
+// ? Campus routes
+Route::get('/add-campus', [InstitutesController::class, 'add_campus'])->name('add-campus');
+Route::get('/all-campus', [InstitutesController::class, 'all_campus'])->name('all-campus');

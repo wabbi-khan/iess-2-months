@@ -70,33 +70,40 @@
                                         </tr>
                                         <tr>
                                             <td>Institute Password:</td>
-                                            <td class="font-medium text-dark-medium">{{ $view_institutes->institute_password }}</td>
+                                            <td class="font-medium text-dark-medium">
+                                                {{ $view_institutes->institute_password }}</td>
                                         </tr>
                                         <tr>
                                             <td>Institute City:</td>
-                                            <td class="font-medium text-dark-medium">{{ $view_institutes->institute_city }}</td>
+                                            <td class="font-medium text-dark-medium">
+                                                {{ $view_institutes->institute_city }}</td>
                                         </tr>
                                         <tr>
                                             <td>Institute Email:</td>
-                                            <td class="font-medium text-dark-medium">{{ $view_institutes->institute_email }}</td>
+                                            <td class="font-medium text-dark-medium">
+                                                {{ $view_institutes->institute_email }}</td>
                                         </tr>
                                         <tr>
                                             <td>Institute Contact:</td>
-                                            <td class="font-medium text-dark-medium">{{ $view_institutes->institute_contact }}</td>
+                                            <td class="font-medium text-dark-medium">
+                                                {{ $view_institutes->institute_contact }}</td>
                                         </tr>
                                         <tr>
                                             <td>Institute Ptcl:</td>
-                                            <td class="font-medium text-dark-medium">{{ $view_institutes->institute_ptcl }}</td>
+                                            <td class="font-medium text-dark-medium">
+                                                {{ $view_institutes->institute_ptcl }}</td>
                                         </tr>
                                         <tr>
                                             <td>Institute Password:</td>
-                                            <td class="font-medium text-dark-medium">{{ $view_institutes->institute_password }}</td>
+                                            <td class="font-medium text-dark-medium">
+                                                {{ $view_institutes->institute_password }}</td>
                                         </tr>
                                         <tr>
                                             <td>Registertion Date:</td>
-                                            <td class="font-medium text-dark-medium">{{ $view_institutes->updated_at->diffForHumans() }}</td>
+                                            <td class="font-medium text-dark-medium">
+                                                {{ $view_institutes->updated_at->diffForHumans() }}</td>
                                         </tr>
-                                        
+
                                     </tbody>
                                 </table>
                             </div>

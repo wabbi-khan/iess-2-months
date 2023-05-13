@@ -21,9 +21,19 @@
                         <a href="{{ route('all-institute') }}" class="nav-link"><i class="fas fa-angle-right"></i>All
                             Institutes</a>
                     </li>
-                    <!-- <li class="nav-item">
-                <a href="#" class="nav-link"><i class="fas fa-angle-right"></i>Institutes Details</a>
-            </li> -->
+                </ul>
+            </li>
+            <li class="nav-item sidebar-nav-item">
+                <a href="#" class="nav-link"><i class="flaticon-classmates"></i><span>Campus</span></a>
+                <ul class="nav sub-group-menu">
+                    <li class="nav-item">
+                        <a href="{{ route('add-campus') }}" class="nav-link"><i class="fas fa-angle-right"></i>Campus
+                            Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('all-campus') }}" class="nav-link"><i class="fas fa-angle-right"></i>All
+                            Campus</a>
+                    </li>
                 </ul>
             </li>
         </ul>
