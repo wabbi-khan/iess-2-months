@@ -75,6 +75,16 @@ class InstitutesController extends Controller
     }
 
 
+    // ? institute panel routes 
+    public function institute_panel(Request $request)
+    {
+        $pagename = 'Institute Dashboard';
+        return view('institute_admin_panel.dashboard.index', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+
     // ? campus routes work
     public function add_campus(Request $request)
     {
