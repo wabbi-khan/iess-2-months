@@ -10,4 +10,14 @@ class Institute extends Model
 {
     use HasFactory;
     use SoftDeletes;
+
+    protected $fillable = [
+        'institute_name',
+        'Institute_address',
+        'institute_email',
+        'institute_password',
+        'institute_city',
+        'institute_contact',
+        'institute_ptcl',
+    ];
 }

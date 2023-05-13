@@ -33,17 +33,28 @@
             <!-- Student Table Area Start Here -->
             <div class="card height-auto">
                 <div class="card-body">
+                    @if(session('delete-message-Institute'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>Congratulations!</strong> {{ session('delete-message-Institute') }}.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                    @endif
                     <div class="heading-layout1">
                         <div class="item-title">
                             <h3>All Students Data</h3>
                         </div>
                         <div class="dropdown">
-                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">...</a>
+                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">...</a>
 
                             <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Delete</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-redo-alt text-orange-peel"></i>View</a>
                             </div>
                         </div>
                     </div>
@@ -72,122 +83,58 @@
                                     <th>
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input checkAll" />
-                                            <label class="form-check-label">Roll</label>
+                                            <label class="form-check-label">ID</label>
                                         </div>
                                     </th>
-                                    <th>Photo</th>
-                                    <th>Name</th>
-                                    <th>Gender</th>
-                                    <th>Class</th>
-                                    <th>Section</th>
-                                    <th>Parents</th>
-                                    <th>Address</th>
-                                    <th>Date Of Birth</th>
-                                    <th>Phone</th>
-                                    <th>E-mail</th>
+                                    <th>institute Name</th>
+                                    <th>Institute Address</th>
+                                    <th>Institute Password</th>
+                                    <th>Institute City</th>
+                                    <th>Institute Email</th>
+                                    <th>Institute Contact</th>
+                                    <th>Institute Ptcl</th>
+                                    <th>Registertion</th>
                                     <th></th>
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($registered_institutes as $registered_institute)
                                 <tr>
                                     <td>
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input" />
-                                            <label class="form-check-label">#0021</label>
+                                            <label class="form-check-label">#{{ $registered_institute->id }}</label>
                                         </div>
                                     </td>
-                                    <td class="text-center">
+                                    <!-- <td class="text-center">
                                         <img src="/main_assets/img/figure/student2.png" alt="student" />
-                                    </td>
-                                    <td>Mark Willy</td>
-                                    <td>Male</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                    <td>Jack Sparrow</td>
-                                    <td>TA-107 Newyork</td>
-                                    <td>02/05/2001</td>
-                                    <td>+ 123 9988568</td>
-                                    <td>kazifahim93@gmail.com</td>
+                                    </td> -->
+                                    <td>{{ $registered_institute->institute_name }}</td>
+                                    <td>{{ $registered_institute->Institute_address	 }}</td>
+                                    <td>{{ $registered_institute->institute_password }}</td>
+                                    <td>{{ $registered_institute->institute_city }}</td>
+                                    <td>{{ $registered_institute->institute_email }}</td>
+                                    <td>{{ $registered_institute->institute_contact }}</td>
+                                    <td>{{ $registered_institute->institute_ptcl }}</td>
+                                    <td>{{ $registered_institute->updated_at->diffForHumans() }}</td>
                                     <td>
                                         <div class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                aria-expanded="false">
                                                 <span class="flaticon-more-button-of-three-dots"></span>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                <a class="dropdown-item" href="{{ route('delete-institute',['delete' => $registered_institute->id ]) }}"><i
+                                                        class="fas fa-times text-orange-red"></i>Delete</a>
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                <a class="dropdown-item" href="{{ route('view-institute',['view' => $registered_institute->id ]) }}"><i
+                                                        class="fas fa-redo-alt text-orange-peel"></i>View</a>
                                             </div>
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
-
-
-
-                                    <td>
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" />
-                                            <label class="form-check-label">#0022</label>
-                                        </div>
-                                    </td>
-                                    <td class="text-center">
-                                        <img src="/main_assets/img/figure/student3.png" alt="student" />
-                                    </td>
-                                    <td>Jessia Rose</td>
-                                    <td>Female</td>
-                                    <td>1</td>
-                                    <td>A</td>
-                                    <td>Maria Jamans</td>
-                                    <td>59 Australia, Sydney</td>
-                                    <td>02/05/2001</td>
-                                    <td>+ 123 9988568</td>
-                                    <td>kazifahim93@gmail.com</td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" />
-                                            <label class="form-check-label">#0023</label>
-                                        </div>
-                                    </td>
-                                    <td class="text-center">
-                                        <img src="/main_assets/img/figure/student4.png" alt="student" />
-                                    </td>
-                                    <td>Mark Willy</td>
-                                    <td>Male</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                    <td>Jack Sparrow</td>
-                                    <td>TA-107 Newyork</td>
-                                    <td>02/05/2001</td>
-                                    <td>+ 123 9988568</td>
-                                    <td>kazifahim93@gmail.com</td>
-                                    <td>
-                                        <div class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                <a class="dropdown-item" href="#"><i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>
