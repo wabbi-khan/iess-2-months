@@ -161,4 +161,16 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    //view Attendance
+    public function view_attendance(Request $request)
+    {
+        $pagename = 'View Attendance';
+        return view(
+            'main_super_admin.dashboard.attendance.view-attendance',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }
