@@ -21,12 +21,12 @@
 
             <!-- Breadcubs Area Start Here -->
             <div class="breadcrumbs-area">
-                <h3>Campus</h3>
+                <h3>Institutes</h3>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>All Campus</li>
+                    <li>All Institutes</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->
@@ -43,7 +43,7 @@
                     @endif
                     <div class="heading-layout1">
                         <div class="item-title">
-                            <h3>All Campus Data</h3>
+                            <h3>All Institutes Data</h3>
                         </div>
                         <div class="dropdown">
                             <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -56,7 +56,6 @@
                                 <a class="dropdown-item" href="#"><i
                                         class="fas fa-redo-alt text-orange-peel"></i>View</a>
                             </div>
-                            
                         </div>
                     </div>
                     <form class="mg-b-20">
@@ -99,26 +98,25 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($registered_institutes as $registered_institute)
                                 <tr>
                                     <td>
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input" />
-                                            <label class="form-check-label"></label>
+                                            <label class="form-check-label">#{{ $registered_institute->id }}</label>
                                         </div>
                                     </td>
                                     <!-- <td class="text-center">
                                         <img src="/main_assets/img/figure/student2.png" alt="student" />
                                     </td> -->
-                                    <td>Campus details show here</td>
-                                    <td>Campus details show here</td>
-                                    <td>Campus details show here</td>
-                                    <td>Campus details show here</td>
-                                    <td>Campus details show here</td>
-                                    <td>Campus details show here</td>
-                                    <td>Campus details show here</td>
-                                    <td>
-                                        s
-                                    </td>
+                                    <td>{{ $registered_institute->institute_name }}</td>
+                                    <td>{{ $registered_institute->Institute_address	 }}</td>
+                                    <td>{{ $registered_institute->institute_password }}</td>
+                                    <td>{{ $registered_institute->institute_city }}</td>
+                                    <td>{{ $registered_institute->institute_email }}</td>
+                                    <td>{{ $registered_institute->institute_contact }}</td>
+                                    <td>{{ $registered_institute->institute_ptcl }}</td>
+                                    <td>{{ $registered_institute->updated_at->diffForHumans() }}</td>
                                     <td>
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
@@ -126,16 +124,19 @@
                                                 <span class="flaticon-more-button-of-three-dots"></span>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item"><i
+                                                <a class="dropdown-item"
+                                                    href="{{ route('delete-institute',['delete' => $registered_institute->id ]) }}"><i
                                                         class="fas fa-times text-orange-red"></i>Delete</a>
                                                 <a class="dropdown-item" href="#"><i
                                                         class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                <a class="dropdown-item"><i
+                                                <a class="dropdown-item"
+                                                    href="{{ route('view-institute',['view' => $registered_institute->id ]) }}"><i
                                                         class="fas fa-redo-alt text-orange-peel"></i>View</a>
                                             </div>
                                         </div>
                                     </td>
                                 </tr>
+                                @endforeach
                             </tbody>
                         </table>
                     </div>

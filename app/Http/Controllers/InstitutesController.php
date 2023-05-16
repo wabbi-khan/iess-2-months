@@ -74,8 +74,7 @@ class InstitutesController extends Controller
             );
     }
 
-
-    // ? institute panel routes 
+    // ? institute panel routes
     public function institute_panel(Request $request)
     {
         $pagename = 'Institute Dashboard';
@@ -83,7 +82,6 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-
 
     // ? campus routes work
     public function add_campus(Request $request)
@@ -97,6 +95,50 @@ class InstitutesController extends Controller
     {
         $pagename = 'All Campus';
         return view('main_super_admin.dashboard.campus.all_campus', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    public function campus_general_operation(Request $request)
+    {
+        $pagename = 'General Operations';
+        return view('main_super_admin.dashboard.campus.general_operation', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    public function campus_hr(Request $request)
+    {
+        $pagename = 'HR';
+        return view(
+            'main_super_admin.dashboard.campus.campus_hr
+        ',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    public function campus_exams(Request $request)
+    {
+        $pagename = 'Exams';
+        return view('main_super_admin.dashboard.campus.campus_exams', [
+            'pagename' => $pagename,
+        ]);
+    }
+    public function campus_accounts(Request $request)
+    {
+        $pagename = 'Accounts';
+        return view('main_super_admin.dashboard.campus.campus_accounts', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // addmision controller
+    public function admissions(Request $request)
+    {
+        $pagename = 'Admissions';
+        return view('main_super_admin.dashboard.admissions.admissions', [
             'pagename' => $pagename,
         ]);
     }
