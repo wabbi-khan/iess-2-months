@@ -150,4 +150,15 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // view student details
+    public function view_student(Request $request)
+    {
+        $pagename = 'view student';
+        return view(
+            'main_super_admin.dashboard.admissions.view-student-detail',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }

@@ -33,7 +33,7 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/Exam and HR/employee-01.png" alt="">
                             </div>
                             <h5>Employee</h5>
                         </div>
@@ -41,7 +41,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/Exam and HR/attendance-01.png" alt="">
                             </div>
                             <h5>Attendance Record</h5>
                         </div>
@@ -49,7 +49,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/Exam and HR/leave-01.png" alt="">
                             </div>
                             <h5>Leaves</h5>
                         </div>
@@ -58,7 +58,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/Exam and HR/public holiday.png" alt="">
                             </div>
                             <h5>Public Holiday</h5>
                         </div>
@@ -66,7 +66,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/Exam and HR/departments-01.png" alt="">
                             </div>
                             <h5>Department</h5>
                         </div>

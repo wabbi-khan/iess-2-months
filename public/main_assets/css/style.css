@@ -7317,3 +7317,10 @@ ul {
 .add-new-admission :hover {
     background-color: transparent !important;
 }
+
+.student-detail-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

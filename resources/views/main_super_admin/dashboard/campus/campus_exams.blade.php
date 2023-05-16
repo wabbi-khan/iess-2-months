@@ -33,9 +33,9 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="assets/general_operations/examination_management.JPG" alt="">
+                                <img src="assets/Exam and HR/exam shedule-01.png" alt="">
                             </div>
-                            <h5>SChedule Exams</h5>
+                            <h5>Schedule Exams</h5>
                         </div>
                     </div>
                 </div>

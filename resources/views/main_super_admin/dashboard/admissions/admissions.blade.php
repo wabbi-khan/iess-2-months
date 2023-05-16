@@ -120,7 +120,7 @@
                                                 <a class="dropdown-item" href="#"><i
                                                         class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
                                                 <a class="dropdown-item"
-                                                    href="#"><i
+                                                    href="{{ route('view-student') }}"><i
                                                         class="fas fa-redo-alt text-orange-peel"></i>View</a>
                                             </div>
                                         </div>

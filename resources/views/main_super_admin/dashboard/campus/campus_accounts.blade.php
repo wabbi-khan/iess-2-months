@@ -34,7 +34,7 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="assets/general_operations/financial_management_system.JPG" alt="">
+                                <img src="assets/accounts/fees.png" alt="">
                             </div>
                             <h5>Fees</h5>
                         </div>
@@ -50,7 +50,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/fees confirm.png" alt="">
                             </div>
                             <h5>Confirm Fees</h5>
                         </div>
@@ -58,7 +58,7 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/fees record.png" alt="">
                             </div>
                             <h5>Fees Record</h5>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/salary.png" alt="">
                             </div>
                             <h5>Salary</h5>
                         </div>
@@ -77,7 +77,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/deduction.png" alt="">
                             </div>
                             <h5>Deduction</h5>
                         </div>
@@ -85,7 +85,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/bonuns.png" alt="">
                             </div>
                             <h5>Bonus</h5>
                         </div>
@@ -98,7 +98,7 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/inventory.png" alt="">
                             </div>
                             <h5>All Inventory</h5>
                         </div>
@@ -106,7 +106,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/new item.png" alt="">
                             </div>
                             <h5>Add New Item</h5>
                         </div>
@@ -114,7 +114,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/billing.png" alt="">
                             </div>
                             <h5>Billings</h5>
                         </div>
