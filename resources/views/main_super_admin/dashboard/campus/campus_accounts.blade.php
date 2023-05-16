@@ -42,7 +42,7 @@
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="main_assets/img/schedule_exams.png" alt="">
+                                <img src="assets/accounts/challans.png" alt="">
                             </div>
                             <h5>Challans</h5>
                         </div>
@@ -62,7 +62,7 @@
                             </div>
                             <h5>Fees Record</h5>
                         </div>
-                    </div>
+                    </div>  
                 </div>
                   <h3 class="text-center">Payroll</h3>
                 <div class="row d-flex justify-content-center">

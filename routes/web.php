@@ -83,3 +83,6 @@ Route::get('/campus-accounts', [
 Route::get('/admissions', [InstitutesController::class, 'admissions'])->name(
     'admissions'
 );
+Route::get('/add-Student', [InstitutesController::class, 'add_Student'])->name(
+    'add-Student'
+);

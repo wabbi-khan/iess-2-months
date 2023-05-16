@@ -31,12 +31,14 @@
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/new addmission-01.png" alt="">
+                        <a href="{{ route('admissions') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/new addmission-01.png" alt="">
+                                </div>
+                                <h5>New Admissions</h5>
                             </div>
-                            <h5>New Admissions</h5>
-                        </div>
+                        </a>
                     </div>
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
