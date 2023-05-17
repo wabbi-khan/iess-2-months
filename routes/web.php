@@ -95,3 +95,17 @@ Route::get('/view-attendance', [
     InstitutesController::class,
     'view_attendance',
 ])->name('view-attendance');
+
+// ? add classes and section routes
+Route::get('/all-classes', [
+    InstitutesController::class,
+    'all_classes',
+])->name('all-classes');
+Route::get('/add-class', [
+    InstitutesController::class,
+    'add_class',
+])->name('add-class');
+Route::get('/add-section', [
+    InstitutesController::class,
+    'add_section',
+])->name('add-section');

@@ -173,4 +173,36 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? add classes 
+    public function all_classes(Request $request)
+    {
+        $pagename = 'View Classes';
+        return view(
+            'main_super_admin.dashboard.classes.all_classes',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function add_class(Request $request)
+    {
+        $pagename = 'Add Class';
+        return view(
+            'main_super_admin.dashboard.classes.add_class',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function add_section(Request $request)
+    {
+        $pagename = 'Add Section';
+        return view(
+            'main_super_admin.dashboard.classes.add_section',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }

@@ -15,7 +15,7 @@
         <div class="dashboard-content-one">
             <!-- Breadcubs Area Start Here -->
             <div class="breadcrumbs-area">
-                <h3 class="text-center">School Name Here</h3>
+                <h3 class="text-center"> "Campus Name" </h3>
                 <ul>
                     <li>
                         <a href="index.php">Home</a>

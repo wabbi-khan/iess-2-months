@@ -17,7 +17,7 @@
         <div class="dashboard-content-one">
             <!-- Breadcubs Area Start Here -->
             <div class="breadcrumbs-area">
-                <h3 class="text-center">"School Name Here"</h3>
+                <h3 class="text-center">"Campus Name"</h3>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
@@ -93,12 +93,14 @@
                         </div>
                      </div>
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/class-01.png" alt="">
+                        <a  href="{{ route('all-classes') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/class-01.png" alt="">
+                                </div>
+                                <h5>Classes</h5>
                             </div>
-                            <h5>Classes</h5>
-                        </div>
+                        </a>
                      </div>
                      <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
