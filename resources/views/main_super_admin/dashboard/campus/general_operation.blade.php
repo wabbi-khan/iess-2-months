@@ -28,9 +28,10 @@
             <!-- Breadcubs Area End Here -->
             <!-- Admit Form Area Start Here -->
 
-            <div class="container">
+            <div class="container payroll-heading">
+                <h3 class="text-center">General Operations</h3>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('admissions') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
@@ -40,7 +41,7 @@
                             </div>
                         </a>
                     </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('view-attendance') }}">
 
                         <div class="box-main-card">
@@ -51,7 +52,7 @@
                         </div>
                         </a>
                     </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/result-01.png" alt="">
@@ -60,7 +61,7 @@
                         </div>
                     </div>
 
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/promote student.png" alt="">
@@ -68,7 +69,7 @@
                             <h5>Promote Students</h5>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/former 01.png" alt="">
@@ -76,7 +77,7 @@
                             <h5>Former Students</h5>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/time table-01.png" alt="">
@@ -84,7 +85,7 @@
                             <h5>View Timetable</h5>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/syllabus-01.png" alt="">
@@ -92,7 +93,7 @@
                             <h5>Syllabus</h5>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a  href="{{ route('all-classes') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
@@ -102,15 +103,47 @@
                             </div>
                         </a>
                      </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/subject-01.png" alt="">
                             </div>
                             <h5>Subjects</h5>
+                         </div>
+                     </div>
+                     
+                    
+                </div>
+                    <h3 class="text-center">Systems</h3>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <div class="box-main-card">
+                            <div class="card-content">
+                                <img src="assets/LMS.png" alt="">
+                            </div>
+                            <h5>Learning Management(LMS)</h5>
                         </div>
                      </div>
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <div class="box-main-card">
+                            <div class="card-content">
+                                <img src="assets/student-complaint.png" alt="">
+                            </div>
+                            <h5>Student Complaint</h5>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <div class="box-main-card">
+                            <div class="card-content">
+                                <img src="assets/hostel.png" alt="">
+                            </div>
+                            <h5>Hostel Management</h5>
+                        </div>
+                     </div>
+                     
+                    
                 </div>
+                
             </div>
 <br>
             <div class="text-center">
