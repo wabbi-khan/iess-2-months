@@ -17,8 +17,8 @@
         </div>
     </div>
     <div class="d-md-none mobile-nav-bar">
-        <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse" data-target="#mobile-navbar"
-            aria-expanded="false">
+        <button class="navbar-toggler pulse-animation" type="button" data-toggle="collapse"
+            data-target="#mobile-navbar" aria-expanded="false">
             <i class="far fa-arrow-alt-circle-down"></i>
         </button>
         <button type="button" class="navbar-toggler sidebar-toggle-mobile">
@@ -57,7 +57,7 @@
                     <div class="item-content">
                         <ul class="settings-list">
                             <li>
-                                <a href="#"><i class="flaticon-user"></i>My Profile</a>
+                                <a href="{{ route('my-profile') }}"><i class="flaticon-user"></i>My Profile</a>
                             </li>
                             <li>
                                 <a href="#"><i class="flaticon-list"></i>Task</a>
@@ -67,7 +67,7 @@
                                         class="flaticon-chat-comment-oval-speech-bubble-with-text-lines"></i>Message</a>
                             </li>
                             <li>
-                                <a href="#"><i class="flaticon-gear-loading"></i>Account
+                                <a href="{{ route('acc-setting') }}"><i class="flaticon-gear-loading"></i>Account
                                     Settings</a>
                             </li>
                             <li>
