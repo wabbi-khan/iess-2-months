@@ -21,18 +21,18 @@
 
             <!-- Breadcubs Area Start Here -->
             <div class="breadcrumbs-area">
-                <h3 class="text-center">"School Name Here"</h3>
+                <h3 class="text-center">"Campus Name"</h3>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>Admissions</li>
+                    <li>All Syllabus</li>
                 </ul>
             </div>
             <div class="row  d-flex justify-content-end">
 
                 <div class="col-2-xxxl col-xl-3 col-lg-3 col-12 form-group">
-                    <a href="{{ route('add-Student') }}">
+                    <a href="{{ route('add-syllabus') }}">
                         <button type="submit" class="fw-btn-fill btn-gradient-yellow">
                             Add New
                         </button>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="heading-layout1">
                         <div class="item-title">
-                            <h3>All Students</h3>
+                            <h3>All Syllabus</h3>
                         </div>
 
                     </div>
@@ -85,12 +85,12 @@
                                             <label class="form-check-label">ID</label>
                                         </div>
                                     </th>
-                                    <th>Student Image</th>
-                                    <th>Cadet Number</th>
                                     <th>Class</th>
                                     <th>Section</th>
-                                    <th>House</th>
-                                    <th>Enrollment</th>
+                                    <th>Subject</th>
+                                    <th>Author Name</th>
+                                    <th>Book Name</th>
+                                    <th>No: Of Chapters</th>
                                     <th>More</th>
                                 </tr>
                             </thead>
@@ -105,12 +105,12 @@
                                     <!-- <td class="text-center">
                                         <img src="/main_assets/img/figure/student2.png" alt="student" />
                                     </td> -->
-                                    <td>student image</td>
-                                    <td>1313</td>
-                                    <td>Class 16</td>
-                                    <td>Section 1</td>
-                                    <td>house 242</td>
-                                    <td>343</td>
+                                    <td>Class 1</td>
+                                    <td>Section A</td>
+                                    <td>English</td>
+                                    <td>Wahab Khan</td>
+                                    <td>English book</td>
+                                    <td>12</td>
                                     <td>
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
