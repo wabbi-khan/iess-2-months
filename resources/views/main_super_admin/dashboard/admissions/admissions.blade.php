@@ -29,18 +29,22 @@
                     <li>Admissions</li>
                 </ul>
             </div>
-            <div class="row d-flex justify-content-end">
-                <a href="{{ route('add-Student') }}">
+            <div class="row  d-flex justify-content-end">
 
-                    <button class="add-new-admission btn btn-primary"> Add New</button>
+                <div class="col-2-xxxl col-xl-3 col-lg-3 col-12 form-group">
+                    <a href="{{ route('add-Student') }}">
+                        <button type="submit" class="fw-btn-fill btn-gradient-yellow">
+                            Add New
+                        </button>
+                    </a>
+                </div>
 
-                </a>
             </div>
             <!-- Breadcubs Area End Here -->
             <!-- Student Table Area Start Here -->
             <div class="card height-auto">
                 <div class="card-body">
-                    
+
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                         <strong>Congratulations!</strong>
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -51,7 +55,7 @@
                         <div class="item-title">
                             <h3>All Students</h3>
                         </div>
-                       
+
                     </div>
                     <form class="mg-b-20">
                         <div class="row d-flex justify-content-end gutters-8">
@@ -66,7 +70,7 @@
                             </div> -->
                             <div class="col-1-xxxl col-xl-2 col-lg-3 col-12 form-group">
                                 <button type="submit" class="fw-btn-fill btn-gradient-yellow">
-                                    SEARCH
+                                    Search
                                 </button>
                             </div>
                         </div>
@@ -114,13 +118,11 @@
                                                 <span class="flaticon-more-button-of-three-dots"></span>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item"
-                                                    href="#"><i
+                                                <a class="dropdown-item" href="#"><i
                                                         class="fas fa-times text-orange-red"></i>Delete</a>
                                                 <a class="dropdown-item" href="#"><i
                                                         class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                <a class="dropdown-item"
-                                                    href="{{ route('view-student') }}"><i
+                                                <a class="dropdown-item" href="{{ route('view-student') }}"><i
                                                         class="fas fa-redo-alt text-orange-peel"></i>View</a>
                                             </div>
                                         </div>

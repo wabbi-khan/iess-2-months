@@ -185,6 +185,7 @@ class InstitutesController extends Controller
             ]
         );
     }
+
     public function add_class(Request $request)
     {
         $pagename = 'Add Class';
@@ -200,6 +201,50 @@ class InstitutesController extends Controller
         $pagename = 'Add Section';
         return view(
             'main_super_admin.dashboard.classes.add_section',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    // ? Promote Students
+
+    public function pro_student(Request $request)
+    {
+        $pagename = 'Promote Student';
+        return view(
+            'main_super_admin.dashboard.pro_student.pro_student',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function pro_studentClassData(Request $request)
+    {
+        $pagename = 'Promote Student Data';
+        return view(
+            'main_super_admin.dashboard.pro_student.pro_studentClassData',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // ? My profile
+    public function my_profile(Request $request)
+    {
+        $pagename = 'My Profile';
+        return view(
+            'main_super_admin.dashboard.my_profile.my_profile',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function acc_setting(Request $request)
+    {
+        $pagename = 'Account Setting';
+        return view(
+            'main_super_admin.dashboard.my_profile.acc_setting',
             [
                 'pagename' => $pagename,
             ]

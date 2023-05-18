@@ -1,6 +1,6 @@
 @include('main_super_admin.dashboard.include.header')
 <style>
-    
+
 </style>
 <!-- Preloader Start Here -->
 <div id="preloader"></div>
@@ -41,18 +41,18 @@
                             </div>
                         </a>
                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('view-attendance') }}">
 
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/attendance-01.png" alt="">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/attendance-01.png" alt="">
+                                </div>
+                                <h5>View Attendance</h5>
                             </div>
-                            <h5>View Attendance</h5>
-                        </div>
                         </a>
                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/result-01.png" alt="">
@@ -61,40 +61,42 @@
                         </div>
                     </div>
 
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/promote student.png" alt="">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('pro-student') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/promote student.png" alt="">
+                                </div>
+                                <h5>Promote Students</h5>
                             </div>
-                            <h5>Promote Students</h5>
-                        </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/former 01.png" alt="">
                             </div>
                             <h5>Former Students</h5>
                         </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/time table-01.png" alt="">
                             </div>
                             <h5>View Timetable</h5>
                         </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/syllabus-01.png" alt="">
                             </div>
                             <h5>Syllabus</h5>
                         </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a  href="{{ route('all-classes') }}">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('all-classes') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/class-01.png" alt="">
@@ -102,50 +104,50 @@
                                 <h5>Classes</h5>
                             </div>
                         </a>
-                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/subject-01.png" alt="">
                             </div>
                             <h5>Subjects</h5>
-                         </div>
-                     </div>
-                     
-                    
+                        </div>
+                    </div>
+
+
                 </div>
-                    <h3 class="text-center">Systems</h3>
+                <h3 class="text-center">Systems</h3>
                 <div class="row d-flex justify-content-center">
-                  <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/LMS.png" alt="">
                             </div>
                             <h5>Learning Management(LMS)</h5>
                         </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/student-complaint.png" alt="">
                             </div>
                             <h5>Student Complaint</h5>
                         </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/hostel.png" alt="">
                             </div>
                             <h5>Hostel Management</h5>
                         </div>
-                     </div>
-                     
-                    
+                    </div>
+
+
                 </div>
-                
+
             </div>
-<br>
+            <br>
             <div class="text-center">
                 @include('main_super_admin.dashboard.include.poweredby')
 
@@ -153,14 +155,14 @@
 
             <!-- <div class="card height-auto">
                 <div class="card-body">
-                    @if(session('success-message-Institute'))
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @if (session('success-message-Institute'))
+<div class="alert alert-success alert-dismissible fade show" role="alert">
                         <strong>Congratulations!</strong> {{ session('success-message-Institute') }}.
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    @endif
+@endif
                     <div class="heading-layout1">
                         <div class="item-title">
                             <h3>Add New Campus</h3>
