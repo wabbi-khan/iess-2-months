@@ -109,3 +109,11 @@ Route::get('/add-section', [
     InstitutesController::class,
     'add_section',
 ])->name('add-section');
+Route::get('/pro-student', [
+    InstitutesController::class,
+    'pro_student',
+])->name('pro-student');
+Route::get('/pro-studentClassData', [
+    InstitutesController::class,
+    'pro_studentClassData',
+])->name('pro-studentClassData');

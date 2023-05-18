@@ -205,4 +205,24 @@ class InstitutesController extends Controller
             ]
         );
     }
+    public function pro_student(Request $request)
+    {
+        $pagename = 'Promote Student';
+        return view(
+            'main_super_admin.dashboard.pro_student.pro_student',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function pro_studentClassData(Request $request)
+    {
+        $pagename = 'Promote Student Data';
+        return view(
+            'main_super_admin.dashboard.pro_student.pro_studentClassData',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }
