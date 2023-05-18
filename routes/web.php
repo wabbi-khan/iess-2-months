@@ -133,5 +133,5 @@ Route::get('/acc-setting', [
 // former student
 Route::get('/former-student', [
     InstitutesController::class,
-    'former_student',
+    'formerstudent',
 ])->name('former-student');

@@ -241,4 +241,48 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? Subjects
+    public function all_subjects(Request $request)
+    {
+        $pagename = 'All Subjects';
+        return view(
+            'main_super_admin.dashboard.subjects.all_subjects',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function add_subject(Request $request)
+    {
+        $pagename = 'Add Subject';
+        return view(
+            'main_super_admin.dashboard.subjects.add_subject',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // ? Syllabus
+    public function all_syllabus(Request $request)
+    {
+        $pagename = 'All Syllabus';
+        return view(
+            'main_super_admin.dashboard.syllabus.all_syllabus',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function add_syllabus(Request $request)
+    {
+        $pagename = 'Add Syllabus';
+        return view(
+            'main_super_admin.dashboard.syllabus.add_syllabus',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }

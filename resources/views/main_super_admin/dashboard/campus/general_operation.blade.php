@@ -91,12 +91,15 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/syllabus-01.png" alt="">
+                        <a href="{{ route('all-syllabus') }}">
+
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/syllabus-01.png" alt="">
+                                </div>
+                                <h5>Syllabus</h5>
                             </div>
-                            <h5>Syllabus</h5>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('all-classes') }}">
@@ -109,12 +112,14 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/subject-01.png" alt="">
+                        <a href="{{ route('all-subjects') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/subject-01.png" alt="">
+                                </div>
+                                <h5>Subjects</h5>
                             </div>
-                            <h5>Subjects</h5>
-                        </div>
+                        </a>
                     </div>
 
 
