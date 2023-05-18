@@ -111,6 +111,7 @@ Route::get('/add-section', [
 ])->name('add-section');
 
 // ? Promote Students
+
 Route::get('/pro-student', [
     InstitutesController::class,
     'pro_student',
@@ -130,8 +131,27 @@ Route::get('/acc-setting', [
     'acc_setting',
 ])->name('acc-setting');
 
+// ? subjects 
+Route::get('/all-subjects', [
+    InstitutesController::class,
+    'all_subjects',
+])->name('all-subjects');
+Route::get('/add-subject', [
+    InstitutesController::class,
+    'add_subject',
+])->name('add-subject');
+
+// ? syllabus
+Route::get('/all-syllabus', [
+    InstitutesController::class,
+    'all_syllabus',
+])->name('all-syllabus');
+Route::get('/add-syllabus', [
+    InstitutesController::class,
+    'add_syllabus',
+])->name('add-syllabus');
 // former student
 Route::get('/former-student', [
     InstitutesController::class,
-    'formerstudent',
+    'former_student',
 ])->name('former-student');

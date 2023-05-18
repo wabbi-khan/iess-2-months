@@ -33,19 +33,19 @@
             <!-- Student Table Area Start Here -->
             <div class="card height-auto">
                 <div class="card-body">
-                    @if(session('delete-message-Institute'))
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        <strong>Congratulations!</strong> {{ session('delete-message-Institute') }}.
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
+                    @if (session('delete-message-Institute'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>Congratulations!</strong> {{ session('delete-message-Institute') }}.
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
                     @endif
                     <div class="heading-layout1">
                         <div class="item-title former-student justify-content-center m-auto">
                             <h3 class="text-center">Former Student</h3>
                         </div>
-                      
+
                     </div>
                     <form class="mg-b-20">
                         <div class="row gutters-8 d=flex justify-content-end">
@@ -79,7 +79,7 @@
                                     <th>Cadet Number</th>
                                     <th>Last Attended</th>
                                     <th>Leaving Date</th>
-                                    
+
                                     <th></th>
                                 </tr>
                             </thead>
@@ -98,8 +98,8 @@
                                     <td>student details show here</td>
                                     <td>student details show here</td>
                                     <td>student details show here</td>
-                                
-                                    
+
+
                                     <td>
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"

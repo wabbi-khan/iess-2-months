@@ -235,7 +235,7 @@ class InstitutesController extends Controller
     {
         $pagename = 'Former Student';
         return view(
-            'main_super_admin.dashboard.former-student.former-student',
+            'main_super_admin.dashboard.former-student.former_student',
             [
                 'pagename' => $pagename,
             ]
