@@ -166,57 +166,42 @@ class InstitutesController extends Controller
     public function view_attendance(Request $request)
     {
         $pagename = 'View Attendance';
-        return view(
-            'main_super_admin.dashboard.attendance.view-attendance',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.attendance.view-attendance', [
+            'pagename' => $pagename,
+        ]);
     }
 
-    // ? add classes 
+    // ? add classes
     public function all_classes(Request $request)
     {
         $pagename = 'View Classes';
-        return view(
-            'main_super_admin.dashboard.classes.all_classes',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.classes.all_classes', [
+            'pagename' => $pagename,
+        ]);
     }
 
     public function add_class(Request $request)
     {
         $pagename = 'Add Class';
-        return view(
-            'main_super_admin.dashboard.classes.add_class',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.classes.add_class', [
+            'pagename' => $pagename,
+        ]);
     }
     public function add_section(Request $request)
     {
         $pagename = 'Add Section';
-        return view(
-            'main_super_admin.dashboard.classes.add_section',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.classes.add_section', [
+            'pagename' => $pagename,
+        ]);
     }
     // ? Promote Students
 
     public function pro_student(Request $request)
     {
         $pagename = 'Promote Student';
-        return view(
-            'main_super_admin.dashboard.pro_student.pro_student',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.pro_student.pro_student', [
+            'pagename' => $pagename,
+        ]);
     }
     public function pro_studentClassData(Request $request)
     {
@@ -233,18 +218,24 @@ class InstitutesController extends Controller
     public function my_profile(Request $request)
     {
         $pagename = 'My Profile';
-        return view(
-            'main_super_admin.dashboard.my_profile.my_profile',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.my_profile.my_profile', [
+            'pagename' => $pagename,
+        ]);
     }
     public function acc_setting(Request $request)
     {
         $pagename = 'Account Setting';
+        return view('main_super_admin.dashboard.my_profile.acc_setting', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // former Student
+    public function former_student(Request $request)
+    {
+        $pagename = 'Former Student';
         return view(
-            'main_super_admin.dashboard.my_profile.acc_setting',
+            'main_super_admin.dashboard.former-student.former-student',
             [
                 'pagename' => $pagename,
             ]

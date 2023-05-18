@@ -111,7 +111,6 @@ Route::get('/add-section', [
 ])->name('add-section');
 
 // ? Promote Students
-
 Route::get('/pro-student', [
     InstitutesController::class,
     'pro_student',
@@ -130,3 +129,9 @@ Route::get('/acc-setting', [
     InstitutesController::class,
     'acc_setting',
 ])->name('acc-setting');
+
+// former student
+Route::get('/former-student', [
+    InstitutesController::class,
+    'former_student',
+])->name('former-student');

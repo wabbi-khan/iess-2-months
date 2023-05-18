@@ -72,12 +72,15 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('former-student') }}">
+
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/former 01.png" alt="">
                             </div>
                             <h5>Former Students</h5>
                         </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
