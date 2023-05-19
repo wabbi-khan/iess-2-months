@@ -20,20 +20,20 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>General operations</li>
+                    <li>Digital Library</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->
             <!-- Admit Form Area Start Here -->
 
             <div class="container payroll-heading">
-                <h3 class="text-center">General Operations</h3>
+                <h3 class="text-center">Digital Library</h3>
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('add-new-category') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/new addmission-01.png" alt="">
+                                    <img src="assets/library/new_category_icon-01.png" alt="">
                                 </div>
                                 <h5>New Category</h5>
                             </div>
@@ -44,7 +44,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/attendance-01.png" alt="">
+                                    <img src="assets/library/add_new_book_icon-01.png" alt="">
                                 </div>
                                 <h5>Add New Book</h5>
                             </div>
@@ -53,7 +53,7 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="assets/result-01.png" alt="">
+                                <img src="assets/library/student_fine_icon-01.png" alt="">
                             </div>
                             <h5>Student Fines</h5>
                         </div>
@@ -63,7 +63,7 @@
                         <a href="{{ route('pro-student') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/promote student.png" alt="">
+                                    <img src="assets/library/book_reservation_icon-01.png" alt="">
                                 </div>
                                 <h5>Book Reservation</h5>
                             </div>
@@ -74,7 +74,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/former 01.png" alt="">
+                                    <img src="assets/library/book_return_icon-01.png" alt="">
                                 </div>
                                 <h5>Book Return</h5>
                             </div>
@@ -83,12 +83,12 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
-                                <img src="assets/time table-01.png" alt="">
+                                <img src="assets/library/book_reneval_icon-01.png" alt="">
                             </div>
                             <h5>Book Renewal</h5>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    {{-- <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('all-syllabus') }}">
 
                             <div class="box-main-card">
@@ -98,18 +98,18 @@
                                 <h5>Syllabus</h5>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('all-classes') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/class-01.png" alt="">
+                                    <img src="assets/library/supplier_profile_icon-01.png" alt="">
                                 </div>
                                 <h5>Supplier Profile</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                    {{-- <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('all-subjects') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
@@ -118,7 +118,7 @@
                                 <h5>Subjects</h5>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
 
 
                 </div>
