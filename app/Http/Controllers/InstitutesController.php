@@ -246,40 +246,39 @@ class InstitutesController extends Controller
     public function all_subjects(Request $request)
     {
         $pagename = 'All Subjects';
-        return view(
-            'main_super_admin.dashboard.subjects.all_subjects',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.subjects.all_subjects', [
+            'pagename' => $pagename,
+        ]);
     }
     public function add_subject(Request $request)
     {
         $pagename = 'Add Subject';
-        return view(
-            'main_super_admin.dashboard.subjects.add_subject',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.subjects.add_subject', [
+            'pagename' => $pagename,
+        ]);
     }
 
     // ? Syllabus
     public function all_syllabus(Request $request)
     {
         $pagename = 'All Syllabus';
-        return view(
-            'main_super_admin.dashboard.syllabus.all_syllabus',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.syllabus.all_syllabus', [
+            'pagename' => $pagename,
+        ]);
     }
     public function add_syllabus(Request $request)
     {
         $pagename = 'Add Syllabus';
+        return view('main_super_admin.dashboard.syllabus.add_syllabus', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    public function digital_library(Request $request)
+    {
+        $pagename = 'Digital Library';
         return view(
-            'main_super_admin.dashboard.syllabus.add_syllabus',
+            'main_super_admin.dashboard.digital-library.digital-library',
             [
                 'pagename' => $pagename,
             ]
