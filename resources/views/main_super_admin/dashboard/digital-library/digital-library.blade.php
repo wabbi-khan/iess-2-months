@@ -40,7 +40,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('view-attendance') }}">
+                        <a href="{{ route('all-books') }}">
 
                             <div class="box-main-card">
                                 <div class="card-content">

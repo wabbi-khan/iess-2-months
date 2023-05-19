@@ -294,4 +294,18 @@ class InstitutesController extends Controller
             ]
         );
     }
+    public function all_books(Request $request)
+    {
+        $pagename = 'All Books';
+        return view('main_super_admin.dashboard.digital-library.all-books', [
+            'pagename' => $pagename,
+        ]);
+    }
+     public function add_new_book(Request $request)
+    {
+        $pagename = 'Add New Book';
+        return view('main_super_admin.dashboard.digital-library.add-new-book', [
+            'pagename' => $pagename,
+        ]);
+    }
 }

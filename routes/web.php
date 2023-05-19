@@ -97,49 +97,42 @@ Route::get('/view-attendance', [
 ])->name('view-attendance');
 
 // ? add classes and section routes
-Route::get('/all-classes', [
-    InstitutesController::class,
-    'all_classes',
-])->name('all-classes');
-Route::get('/add-class', [
-    InstitutesController::class,
-    'add_class',
-])->name('add-class');
-Route::get('/add-section', [
-    InstitutesController::class,
-    'add_section',
-])->name('add-section');
+Route::get('/all-classes', [InstitutesController::class, 'all_classes'])->name(
+    'all-classes'
+);
+Route::get('/add-class', [InstitutesController::class, 'add_class'])->name(
+    'add-class'
+);
+Route::get('/add-section', [InstitutesController::class, 'add_section'])->name(
+    'add-section'
+);
 
 // ? Promote Students
 
-Route::get('/pro-student', [
-    InstitutesController::class,
-    'pro_student',
-])->name('pro-student');
+Route::get('/pro-student', [InstitutesController::class, 'pro_student'])->name(
+    'pro-student'
+);
 Route::get('/pro-studentClassData', [
     InstitutesController::class,
     'pro_studentClassData',
 ])->name('pro-studentClassData');
 
 // ? My profile
-Route::get('/my-profile', [
-    InstitutesController::class,
-    'my_profile',
-])->name('my-profile');
-Route::get('/acc-setting', [
-    InstitutesController::class,
-    'acc_setting',
-])->name('acc-setting');
+Route::get('/my-profile', [InstitutesController::class, 'my_profile'])->name(
+    'my-profile'
+);
+Route::get('/acc-setting', [InstitutesController::class, 'acc_setting'])->name(
+    'acc-setting'
+);
 
-// ? subjects 
+// ? subjects
 Route::get('/all-subjects', [
     InstitutesController::class,
     'all_subjects',
 ])->name('all-subjects');
-Route::get('/add-subject', [
-    InstitutesController::class,
-    'add_subject',
-])->name('add-subject');
+Route::get('/add-subject', [InstitutesController::class, 'add_subject'])->name(
+    'add-subject'
+);
 
 // ? syllabus
 Route::get('/all-syllabus', [
@@ -165,3 +158,10 @@ Route::get('/add-new-category', [
     InstitutesController::class,
     'add_new_category',
 ])->name('add-new-category');
+Route::get('/all-books', [InstitutesController::class, 'all_books'])->name(
+    'all-books'
+);
+Route::get('/add-new-book', [
+    InstitutesController::class,
+    'add_new_book',
+])->name('add-new-book');
