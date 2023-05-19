@@ -46,6 +46,9 @@
                     <li class="nav-item">
                         <a href="{{ route('campus-general-operation') }}" class="nav-link"><i class="fas fa-thin fa-graduation-cap"></i>General operations</a>
                     </li>
+                     <li class="nav-item">
+                        <a href="{{ route('digital-library') }}" class="nav-link"><i class="fas fa-thin fa-graduation-cap"></i>Digital Library</a>
+                    </li>
                     <li class="nav-item">
                         <a href="{{ route('campus-hr') }}" class="nav-link"><i class="fa-solid fa-person"></i>HR</a>
                     </li>

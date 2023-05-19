@@ -155,3 +155,9 @@ Route::get('/former-student', [
     InstitutesController::class,
     'former_student',
 ])->name('former-student');
+
+// Digital Library
+Route::get('/digital-library', [
+    InstitutesController::class,
+    'digital_library',
+])->name('digital-library');
