@@ -161,3 +161,7 @@ Route::get('/digital-library', [
     InstitutesController::class,
     'digital_library',
 ])->name('digital-library');
+Route::get('/add-new-category', [
+    InstitutesController::class,
+    'add_new_category',
+])->name('add-new-category');

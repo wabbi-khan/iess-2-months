@@ -284,4 +284,14 @@ class InstitutesController extends Controller
             ]
         );
     }
+    public function add_new_category(Request $request)
+    {
+        $pagename = 'Digital Library';
+        return view(
+            'main_super_admin.dashboard.digital-library.addNew_category',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }
