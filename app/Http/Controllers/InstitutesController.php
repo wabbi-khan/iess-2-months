@@ -274,6 +274,7 @@ class InstitutesController extends Controller
         ]);
     }
 
+    // Digital library
     public function digital_library(Request $request)
     {
         $pagename = 'Digital Library';
@@ -301,10 +302,62 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-     public function add_new_book(Request $request)
+    public function add_new_book(Request $request)
     {
         $pagename = 'Add New Book';
         return view('main_super_admin.dashboard.digital-library.add-new-book', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    public function book_reservation(Request $request)
+    {
+        $pagename = 'Add New Book';
+        return view(
+            'main_super_admin.dashboard.digital-library.book-reservation',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function new_reservation(Request $request)
+    {
+        $pagename = 'New Reservation';
+        return view(
+            'main_super_admin.dashboard.digital-library.new-reservation',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function returned_book(Request $request)
+    {
+        $pagename = 'Returned-book';
+        return view(
+            'main_super_admin.dashboard.digital-library.returned-book',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function book_renewal(Request $request)
+    {
+        $pagename = 'Book Renewal';
+        return view('main_super_admin.dashboard.digital-library.book-renewal', [
+            'pagename' => $pagename,
+        ]);
+    }
+    public function all_fine(Request $request)
+    {
+        $pagename = 'All Fine';
+        return view('main_super_admin.dashboard.digital-library.fine', [
+            'pagename' => $pagename,
+        ]);
+    }
+    public function add_new_fine(Request $request)
+    {
+        $pagename = 'Add Fine';
+        return view('main_super_admin.dashboard.digital-library.add-new-fine', [
             'pagename' => $pagename,
         ]);
     }

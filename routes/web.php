@@ -148,6 +148,7 @@ Route::get('/former-student', [
     InstitutesController::class,
     'former_student',
 ])->name('former-student');
+//General Operation End
 
 // Digital Library
 Route::get('/digital-library', [
@@ -165,3 +166,26 @@ Route::get('/add-new-book', [
     InstitutesController::class,
     'add_new_book',
 ])->name('add-new-book');
+Route::get('/book-reservation', [
+    InstitutesController::class,
+    'book_reservation',
+])->name('book-reservation');
+Route::get('/new-reservation', [
+    InstitutesController::class,
+    'new_reservation',
+])->name('new-reservation');
+Route::get('/return-book', [
+    InstitutesController::class,
+    'returned_book',
+])->name('return-book');
+Route::get('/book-renewal', [
+    InstitutesController::class,
+    'book_renewal',
+])->name('book-renewal');
+Route::get('/all-fine', [InstitutesController::class, 'all_fine'])->name(
+    'all-fine'
+);
+Route::get('/add-new-fine', [
+    InstitutesController::class,
+    'add_new_fine',
+])->name('add-new-fine');

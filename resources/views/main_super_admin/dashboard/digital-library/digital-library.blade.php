@@ -51,16 +51,19 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('all-fine') }}">
+
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/library/student_fine_icon-01.png" alt="">
                             </div>
                             <h5>Student Fines</h5>
                         </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('pro-student') }}">
+                        <a href="{{ route('book-reservation') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/library/book_reservation_icon-01.png" alt="">
@@ -70,7 +73,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('former-student') }}">
+                        <a href="{{ route('return-book') }}">
 
                             <div class="box-main-card">
                                 <div class="card-content">
@@ -81,24 +84,17 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('book-renewal') }}">
+
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/library/book_reneval_icon-01.png" alt="">
                             </div>
                             <h5>Book Renewal</h5>
                         </div>
-                    </div>
-                    {{-- <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-syllabus') }}">
-
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/syllabus-01.png" alt="">
-                                </div>
-                                <h5>Syllabus</h5>
-                            </div>
                         </a>
-                    </div> --}}
+                    </div>
+                
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('all-classes') }}">
                             <div class="box-main-card">
@@ -109,16 +105,7 @@
                             </div>
                         </a>
                     </div>
-                    {{-- <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-subjects') }}">
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/subject-01.png" alt="">
-                                </div>
-                                <h5>Subjects</h5>
-                            </div>
-                        </a>
-                    </div> --}}
+                  
 
 
                 </div>
