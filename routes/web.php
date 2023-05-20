@@ -189,3 +189,11 @@ Route::get('/add-new-fine', [
     InstitutesController::class,
     'add_new_fine',
 ])->name('add-new-fine');
+Route::get('/supplier-profile', [
+    InstitutesController::class,
+    'supplier_profile',
+])->name('supplier-profile');
+Route::get('/add-new-supplier', [
+    InstitutesController::class,
+    'add_new_supplier',
+])->name('add-new-supplier');

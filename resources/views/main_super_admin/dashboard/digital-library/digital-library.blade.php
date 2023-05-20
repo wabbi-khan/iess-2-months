@@ -96,7 +96,7 @@
                     </div>
                 
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-classes') }}">
+                        <a href="{{ route('supplier-profile') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/library/supplier_profile_icon-01.png" alt="">
