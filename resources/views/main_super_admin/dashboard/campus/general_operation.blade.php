@@ -85,12 +85,15 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/time table-01.png" alt="">
+                        <a href="{{ route('view-timeTable') }}">
+
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/time table-01.png" alt="">
+                                </div>
+                                <h5>View Timetable</h5>
                             </div>
-                            <h5>View Timetable</h5>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('all-syllabus') }}">

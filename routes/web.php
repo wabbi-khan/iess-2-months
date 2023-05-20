@@ -143,7 +143,7 @@ Route::get('/add-syllabus', [
     InstitutesController::class,
     'add_syllabus',
 ])->name('add-syllabus');
-// former student
+// ? former student
 Route::get('/former-student', [
     InstitutesController::class,
     'former_student',
@@ -154,6 +154,12 @@ Route::get('/view-result', [
     InstitutesController::class,
     'view_result',
 ])->name('view-result');
+
+// ? View Time Table
+Route::get('/view-timeTable', [
+    InstitutesController::class,
+    'view_timeTable',
+])->name('view-timeTable');
 //General Operation End
 
 // Digital Library

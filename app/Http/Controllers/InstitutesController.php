@@ -280,6 +280,14 @@ class InstitutesController extends Controller
         return view('main_super_admin.dashboard.result.view_result', [
             'pagename' => $pagename,
         ]);
+        // ? View Time Table 
+    }
+    public function view_timeTable(Request $request)
+    {
+        $pagename = 'Add Syllabus';
+        return view('main_super_admin.dashboard.timeTable.view_timeTable', [
+            'pagename' => $pagename,
+        ]);
     }
 
 
