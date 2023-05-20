@@ -370,4 +370,29 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+<<<<<<< HEAD
 }
+=======
+    public function supplier_profile(Request $request)
+    {
+        $pagename = 'supplier_profile';
+        return view(
+            'main_super_admin.dashboard.digital-library.supplier-profile',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    public function add_new_supplier(Request $request)
+    {
+        $pagename = 'Add Supplier';
+        return view(
+            'main_super_admin.dashboard.digital-library.add-new-supplier',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+}
+>>>>>>> 31999f7c8cd11fb4fb40a52ec080917245ca4b1c
