@@ -148,6 +148,12 @@ Route::get('/former-student', [
     InstitutesController::class,
     'former_student',
 ])->name('former-student');
+
+// ? View Result
+Route::get('/view-result', [
+    InstitutesController::class,
+    'view_result',
+])->name('view-result');
 //General Operation End
 
 // Digital Library

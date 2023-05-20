@@ -273,6 +273,15 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // ? View Result
+    public function view_result(Request $request)
+    {
+        $pagename = 'Add Syllabus';
+        return view('main_super_admin.dashboard.result.view_result', [
+            'pagename' => $pagename,
+        ]);
+    }
+
 
     // Digital library
     public function digital_library(Request $request)

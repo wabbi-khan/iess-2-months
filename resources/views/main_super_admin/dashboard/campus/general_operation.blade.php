@@ -53,12 +53,14 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/result-01.png" alt="">
+                        <a href="{{ route('view-result') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/result-01.png" alt="">
+                                </div>
+                                <h5>View Results</h5>
                             </div>
-                            <h5>View Results</h5>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
