@@ -370,9 +370,7 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-<<<<<<< HEAD
-}
-=======
+
     public function supplier_profile(Request $request)
     {
         $pagename = 'supplier_profile';
@@ -395,4 +393,3 @@ class InstitutesController extends Controller
         );
     }
 }
->>>>>>> 31999f7c8cd11fb4fb40a52ec080917245ca4b1c
