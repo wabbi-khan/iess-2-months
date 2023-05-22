@@ -51,12 +51,14 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/Exam and HR/leave-01.png" alt="">
+                        <a href="{{ route('employee-leave') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/Exam and HR/leave-01.png" alt="">
+                                </div>
+                                <h5>Leaves</h5>
                             </div>
-                            <h5>Leaves</h5>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">

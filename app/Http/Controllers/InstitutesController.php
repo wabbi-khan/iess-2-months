@@ -444,4 +444,26 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? Employee leave
+    public function employee_leave(Request $request)
+    {
+        $pagename = 'Employees Attendance';
+        return view(
+            'main_super_admin.dashboard.hr_screens.employee_leave',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function add_employee_leave(Request $request)
+    {
+        $pagename = 'Employees Attendance';
+        return view(
+            'main_super_admin.dashboard.hr_screens.add_employee_leave',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }

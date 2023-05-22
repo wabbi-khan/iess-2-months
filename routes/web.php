@@ -229,3 +229,13 @@ Route::get('/add-attendance', [
     InstitutesController::class,
     'add_attendance',
 ])->name('add-attendance');
+
+// ? Employee leave
+Route::get('/employee-leave', [
+    InstitutesController::class,
+    'employee_leave',
+])->name('employee-leave');
+Route::get('/add-employee-leave', [
+    InstitutesController::class,
+    'add_employee_leave',
+])->name('add-employee-leave');
