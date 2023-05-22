@@ -419,17 +419,7 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-    // employee attendance
-    public function employees_attendance(Request $request)
-    {
-        $pagename = 'Employees Attendance';
-        return view(
-            'main_super_admin.dashboard.hr_screens.employees_attendance',
-            [
-                'pagename' => $pagename,
-            ]
-        );
-    }
+
 
     // ? Employee attendance
     public function employees_attendance(Request $request)
@@ -453,8 +443,6 @@ class InstitutesController extends Controller
         );
     }
 
-<<<<<<< HEAD
-=======
     public function all_holidays(Request $request)
     {
         $pagename = 'All Holidays';
@@ -470,7 +458,6 @@ class InstitutesController extends Controller
         ]);
     }
 
->>>>>>> 3039b67eefd5056b277cd7d39274ee672201f486
     // ? Employee leave
     public function employee_leave(Request $request)
     {
@@ -484,8 +471,6 @@ class InstitutesController extends Controller
         $pagename = 'Employees Attendance';
         return view(
             'main_super_admin.dashboard.hr_screens.add_employee_leave',
-<<<<<<< HEAD
-=======
             [
                 'pagename' => $pagename,
             ]
@@ -506,7 +491,6 @@ class InstitutesController extends Controller
         $pagename = 'Add New Department';
         return view(
             'main_super_admin.dashboard.hr_screens.add_new_department',
->>>>>>> 3039b67eefd5056b277cd7d39274ee672201f486
             [
                 'pagename' => $pagename,
             ]
