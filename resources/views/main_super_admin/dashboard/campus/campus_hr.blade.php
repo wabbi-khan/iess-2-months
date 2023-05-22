@@ -60,12 +60,14 @@
                     </div>
 
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('all-holidays') }}">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/Exam and HR/public holiday.png" alt="">
                             </div>
                             <h5>Public Holiday</h5>
                         </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
