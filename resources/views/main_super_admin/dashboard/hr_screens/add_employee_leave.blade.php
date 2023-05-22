@@ -42,7 +42,7 @@
                     <form class="new-added-form" action="#" method="POST">
                         <div class="row">
                             <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <label>Employee *</label>
+                                <label>Employee ID*</label>
                                 <select class="form-control" id="inputGroupSelect02">
                                     <option value="1">12</option>
                                     <option value="2">21</option>
