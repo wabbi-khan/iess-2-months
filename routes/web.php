@@ -234,6 +234,11 @@ Route::get('/all-holidays', [
     InstitutesController::class,
     'all_holidays',
 ])->name('all-holidays');
+// add new holiday
+Route::get('/add-new-holiday', [
+    InstitutesController::class,
+    'add_new_holiday',
+])->name('add-new-holiday');
 
 // ? Employee leave
 Route::get('/employee-leave', [
@@ -244,3 +249,13 @@ Route::get('/add-employee-leave', [
     InstitutesController::class,
     'add_employee_leave',
 ])->name('add-employee-leave');
+
+// all Department
+Route::get('/all-department', [
+    InstitutesController::class,
+    'all_department',
+])->name('all-department');
+Route::get('/add-new-department', [
+    InstitutesController::class,
+    'add_new_department',
+])->name('add-new-department');

@@ -415,8 +415,16 @@ class InstitutesController extends Controller
     public function add_employees(Request $request)
     {
         $pagename = 'Add Employees';
+        return view('main_super_admin.dashboard.hr_screens.add_employees', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // employee attendance
+    public function employees_attendance(Request $request)
+    {
+        $pagename = 'Employees Attendance';
         return view(
-            'main_super_admin.dashboard.hr_screens.add_employees',
+            'main_super_admin.dashboard.hr_screens.employees_attendance',
             [
                 'pagename' => $pagename,
             ]
@@ -445,22 +453,60 @@ class InstitutesController extends Controller
         );
     }
 
+<<<<<<< HEAD
+=======
+    public function all_holidays(Request $request)
+    {
+        $pagename = 'All Holidays';
+        return view('main_super_admin.dashboard.hr_screens.all_holidays', [
+            'pagename' => $pagename,
+        ]);
+    }
+    public function add_new_holiday(Request $request)
+    {
+        $pagename = 'Add new holiday';
+        return view('main_super_admin.dashboard.hr_screens.add_new_holiday', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+>>>>>>> 3039b67eefd5056b277cd7d39274ee672201f486
     // ? Employee leave
     public function employee_leave(Request $request)
     {
         $pagename = 'Employees Attendance';
-        return view(
-            'main_super_admin.dashboard.hr_screens.employee_leave',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.hr_screens.employee_leave', [
+            'pagename' => $pagename,
+        ]);
     }
     public function add_employee_leave(Request $request)
     {
         $pagename = 'Employees Attendance';
         return view(
             'main_super_admin.dashboard.hr_screens.add_employee_leave',
+<<<<<<< HEAD
+=======
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // all department
+    public function all_department(Request $request)
+    {
+        $pagename = 'All Department';
+        return view('main_super_admin.dashboard.hr_screens.all_department', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // add new Department
+    public function add_new_Department(Request $request)
+    {
+        $pagename = 'Add New Department';
+        return view(
+            'main_super_admin.dashboard.hr_screens.add_new_department',
+>>>>>>> 3039b67eefd5056b277cd7d39274ee672201f486
             [
                 'pagename' => $pagename,
             ]
