@@ -29,16 +29,16 @@
                     <li>Classes</li>
                 </ul>
             </div>
-            <div class="row d-flex justify-content-end">
-                <a href="{{ route('add-class') }}">
+            <div class="row d-flex justify-content-end w-100 mb-2">
+                <a href="{{ route('add-class') }}" class="mr-4">
 
-                    <button type="button" class="btn btn-warning text-white mr-4" style="font-size: 14px">Add
+                    <button type="button" class="fw-btn-fill btn-gradient-yellow mr-4" style="font-size: 14px">Add
                         Class</button>
 
                 </a>
                 <a href="{{ route('add-section') }}">
 
-                    <button type="button" class="btn btn-warning text-white" style="font-size: 14px">Add
+                    <button type="button" class="fw-btn-fill btn-gradient-yellow" style="font-size: 14px">Add
                         Section</button>
 
                 </a>
