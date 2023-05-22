@@ -20,7 +20,7 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>Student form</li>
+                    <li>Employee form</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->
@@ -35,7 +35,7 @@
                     </div> -->
                     <div class="heading-layout1">
                         <div class="item-title Add-student m-auto justify-content-center">
-                            <h3>Add Student</h3>
+                            <h3>Add Employee</h3>
                         </div>
 
                     </div>
@@ -154,7 +154,7 @@
                                     required placeholder="Enter  Religion" class="form-control" />
                             </div>
                             <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                <label>Student Picture*</label>
+                                <label>Employee Picture*</label>
                                 <input type="file" name="student_img" id="student_img" required
                                     class="form-control" />
                             </div>

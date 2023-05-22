@@ -400,4 +400,48 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? HR Employee
+    public function all_employees(Request $request)
+    {
+        $pagename = 'All Employees';
+        return view(
+            'main_super_admin.dashboard.hr_screens.all_employees',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function add_employees(Request $request)
+    {
+        $pagename = 'Add Employees';
+        return view(
+            'main_super_admin.dashboard.hr_screens.add_employees',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // ? Employee attendance
+    public function employees_attendance(Request $request)
+    {
+        $pagename = 'Employees Attendance';
+        return view(
+            'main_super_admin.dashboard.hr_screens.employees_attendance',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function add_attendance(Request $request)
+    {
+        $pagename = 'Employees Attendance';
+        return view(
+            'main_super_admin.dashboard.hr_screens.add_attendance',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }

@@ -209,3 +209,23 @@ Route::get('/add-new-supplier', [
     InstitutesController::class,
     'add_new_supplier',
 ])->name('add-new-supplier');
+
+// ? HR Employee form
+Route::get('/all-employees', [
+    InstitutesController::class,
+    'all_employees',
+])->name('all-employees');
+Route::get('/add-employees', [
+    InstitutesController::class,
+    'add_employees',
+])->name('add-employees');
+
+// ? Employee attendance
+Route::get('/employees-attendance', [
+    InstitutesController::class,
+    'employees_attendance',
+])->name('employees-attendance');
+Route::get('/add-attendance', [
+    InstitutesController::class,
+    'add_attendance',
+])->name('add-attendance');
