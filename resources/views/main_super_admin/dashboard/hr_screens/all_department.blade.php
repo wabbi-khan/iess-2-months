@@ -26,13 +26,13 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>holidays</li>
+                    <li>Departments</li>
                 </ul>
             </div>
             <div class="row  d-flex justify-content-end">
 
                 <div class="col-2-xxxl col-xl-3 col-lg-3 col-12 form-group">
-                    <a href="{{ route('add-new-holiday') }}">
+                    <a href="{{ route('add-new-department') }}">
                         <button type="submit" class="fw-btn-fill btn-gradient-yellow">
                             Add New
                         </button>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="heading-layout1">
                         <div class="item-title">
-                            <h3>Holidays</h3>
+                            <h3>All Departments</h3>
                         </div>
 
                     </div>
@@ -86,9 +86,7 @@
                                         </div>
                                     </th>
                                     <th>Title</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
-                                    <th>Details</th>
+                                   
                                     <th>More</th>
                                 </tr>
                             </thead>
@@ -104,9 +102,7 @@
                                         <img src="/main_assets/img/figure/student2.png" alt="student" />
                                     </td> -->
                                     <td>DataStructure</td>
-                                    <td>William Norway</td>
-                                    <td>4th</td>
-                                    <td>3</td>
+                                  
                                     <td>
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
