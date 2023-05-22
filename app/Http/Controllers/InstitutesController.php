@@ -425,15 +425,16 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-<<<<<<< HEAD
+
     public function all_holidays(Request $request)
     {
         $pagename = 'All Holidays';
         return view('main_super_admin.dashboard.hr_screens.all_holidays', [
             'pagename' => $pagename,
         ]);
-=======
 
+    }
+    
     // ? Employee leave
     public function employee_leave(Request $request)
     {
