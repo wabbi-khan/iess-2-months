@@ -230,7 +230,3 @@ Route::get('/add-attendance', [
     InstitutesController::class,
     'add_attendance',
 ])->name('add-attendance');
-Route::get('/all-holidays', [
-    InstitutesController::class,
-    'all_holidays',
-])->name('all-holidays');
