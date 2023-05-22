@@ -150,10 +150,9 @@ Route::get('/former-student', [
 ])->name('former-student');
 
 // ? View Result
-Route::get('/view-result', [
-    InstitutesController::class,
-    'view_result',
-])->name('view-result');
+Route::get('/view-result', [InstitutesController::class, 'view_result'])->name(
+    'view-result'
+);
 
 // ? View Time Table
 Route::get('/view-timeTable', [
@@ -210,7 +209,7 @@ Route::get('/add-new-supplier', [
     'add_new_supplier',
 ])->name('add-new-supplier');
 
-// ? HR Employee form
+// ? HR(Screens) Employee form
 Route::get('/all-employees', [
     InstitutesController::class,
     'all_employees',
@@ -229,6 +228,12 @@ Route::get('/add-attendance', [
     InstitutesController::class,
     'add_attendance',
 ])->name('add-attendance');
+
+// employee holiay
+Route::get('/all-holidays', [
+    InstitutesController::class,
+    'all_holidays',
+])->name('all-holidays');
 
 // ? Employee leave
 Route::get('/employee-leave', [
