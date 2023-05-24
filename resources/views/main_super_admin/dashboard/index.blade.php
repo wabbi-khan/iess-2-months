@@ -1,20 +1,28 @@
 @include('main_super_admin.dashboard.include.header')
 
 <!-- Preloader Start Here -->
-<div id="preloader"></div>
+
+<div id="preloader">
+</div>
 
 <!-- Preloader End Here -->
 <div id="wrapper" class="wrapper bg-ash">
     <!-- Header Menu Area Start Here -->
+
     @include('main_super_admin.dashboard.include.navbar')
     <!-- Header Menu Area End Here -->
+
     <!-- Page Area Start Here -->
+
     <div class="dashboard-page-one">
         <!-- Sidebar Area Start Here -->
+
         @include('main_super_admin.dashboard.include.side_bar')
         <!-- Sidebar Area End Here -->
+
         <div class="dashboard-content-one">
             <!-- Breadcubs Area Start Here -->
+
             <div class="breadcrumbs-area">
                 <h3>Admin Dashboard</h3>
                 <ul>
@@ -67,6 +75,7 @@
                 </div>
                 <div class="col-xl-3 col-sm-6 col-12">
                     <div class="dashboard-summery-one mg-b-20">
+
                         <div class="row align-items-center">
                             <div class="col-6">
                                 <div class="item-icon bg-light-yellow d-flex justify-content-center align-items-center">
@@ -119,12 +128,12 @@
                                         data-toggle="dropdown" aria-expanded="false">...</a>
 
                                     <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-times text-orange-red"></i>Close</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
                                 </div>
                             </div>
@@ -168,12 +177,12 @@
                                         data-toggle="dropdown" aria-expanded="false">...</a>
 
                                     <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-times text-orange-red"></i>Close</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
                                 </div>
                             </div>
@@ -205,27 +214,36 @@
                                         data-toggle="dropdown" aria-expanded="false">...</a>
 
                                     <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-times text-orange-red"></i>Close</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="expense-report">
                                 <div class="monthly-expense pseudo-bg-Aquamarine">
                                     <div class="expense-date">Jun 2023</div>
-                                    <div class="expense-amount"><span></span> 15,000</div>
+                                    <div class="expense-amount">
+                                        <span></span>
+                                        15,000
+                                    </div>
                                 </div>
                                 <div class="monthly-expense pseudo-bg-blue">
                                     <div class="expense-date">Jun 2023</div>
-                                    <div class="expense-amount"><span></span> 10,000</div>
+                                    <div class="expense-amount">
+                                        <span></span>
+                                        10,000
+                                    </div>
                                 </div>
                                 <div class="monthly-expense pseudo-bg-yellow">
                                     <div class="expense-date">Jun 2023</div>
-                                    <div class="expense-amount"><span></span> 8,000</div>
+                                    <div class="expense-amount">
+                                        <span></span>
+                                        8,000
+                                    </div>
                                 </div>
                             </div>
                             <div class="expense-chart-wrap">
@@ -246,12 +264,12 @@
                                         data-toggle="dropdown" aria-expanded="false">...</a>
 
                                     <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-times text-orange-red"></i>Close</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
                                 </div>
                             </div>
@@ -273,23 +291,26 @@
                                         data-toggle="dropdown" aria-expanded="false">...</a>
 
                                     <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-times text-orange-red"></i>Close</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
                                 </div>
                             </div>
                             <h6 class="traffic-title">Total Teacher</h6>
                             <div class="traffic-number">2,250</div>
                             <div class="traffic-bar">
-                                <div class="direct" data-toggle="tooltip" data-placement="top" title="Direct"></div>
-                                <div class="search" data-toggle="tooltip" data-placement="top" title="Search"></div>
+                                <div class="direct" data-toggle="tooltip" data-placement="top" title="Direct">
+                                </div>
+                                <div class="search" data-toggle="tooltip" data-placement="top" title="Search">
+                                </div>
                                 <div class="referrals" data-toggle="tooltip" data-placement="top" title="Referrals">
                                 </div>
-                                <div class="social" data-toggle="tooltip" data-placement="top" title="Social"></div>
+                                <div class="social" data-toggle="tooltip" data-placement="top" title="Social">
+                                </div>
                             </div>
                             <div class="traffic-table table-responsive">
                                 <table class="table">
@@ -332,12 +353,12 @@
                                         data-toggle="dropdown" aria-expanded="false">...</a>
 
                                     <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-times text-orange-red"></i>Close</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                        <a class="dropdown-item" href="/main_assets/#"><i
-                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="/main_assets/#">
+                                            <i class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
                                 </div>
                             </div>
@@ -345,61 +366,68 @@
                                 <div class="notice-list">
                                     <div class="post-date bg-skyblue">16 June, 2023</div>
                                     <h6 class="notice-title">
-                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                            elit. </a>
+                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit.
+                                        </a>
                                     </h6>
                                     <div class="entry-meta">
-                                        Xcl Technologies / <span>5 min ago</span>
+                                        Xcl Technologies /
+                                        <span>5 min ago</span>
                                     </div>
                                 </div>
                                 <div class="notice-list">
                                     <div class="post-date bg-yellow">16 June, 2023</div>
                                     <h6 class="notice-title">
-                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                            elit.</a>
+                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit.</a>
                                     </h6>
                                     <div class="entry-meta">
-                                        Xcl Technologies / <span>5 min ago</span>
+                                        Xcl Technologies /
+                                        <span>5 min ago</span>
                                     </div>
                                 </div>
                                 <div class="notice-list">
                                     <div class="post-date bg-pink">16 June, 2023</div>
                                     <h6 class="notice-title">
-                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                            elit.</a>
+                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit.</a>
                                     </h6>
                                     <div class="entry-meta">
-                                        Xcl Technologies / <span>5 min ago</span>
+                                        Xcl Technologies /
+                                        <span>5 min ago</span>
                                     </div>
                                 </div>
                                 <div class="notice-list">
                                     <div class="post-date bg-skyblue">16 June, 2019</div>
                                     <h6 class="notice-title">
-                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                            elit.</a>
+                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit.</a>
                                     </h6>
                                     <div class="entry-meta">
-                                        Xcl Technologies / <span>5 min ago</span>
+                                        Xcl Technologies /
+                                        <span>5 min ago</span>
                                     </div>
                                 </div>
                                 <div class="notice-list">
                                     <div class="post-date bg-yellow">16 June, 2019</div>
                                     <h6 class="notice-title">
-                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                            elit.</a>
+                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit.</a>
                                     </h6>
                                     <div class="entry-meta">
-                                        Xcl Technologies / <span>5 min ago</span>
+                                        Xcl Technologies /
+                                        <span>5 min ago</span>
                                     </div>
                                 </div>
                                 <div class="notice-list">
                                     <div class="post-date bg-pink">16 June, 2019</div>
                                     <h6 class="notice-title">
-                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                            elit.</a>
+                                        <a href="/main_assets/#">Lorem ipsum dolor, sit amet consectetur
+                                            adipisicing elit.</a>
                                     </h6>
                                     <div class="entry-meta">
-                                        Xcl Technologies / <span>5 min ago</span>
+                                        Xcl Technologies /
+                                        <span>5 min ago</span>
                                     </div>
                                 </div>
                             </div>
