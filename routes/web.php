@@ -259,3 +259,12 @@ Route::get('/add-new-department', [
     InstitutesController::class,
     'add_new_department',
 ])->name('add-new-department');
+
+// accounts
+Route::get('/salary', [InstitutesController::class, 'salary'])->name('salary');
+// deduction
+Route::get('/deduction', [InstitutesController::class, 'deduction'])->name(
+    'deduction'
+);
+// bonus
+Route::get('/bonus', [InstitutesController::class, 'bonus'])->name('bonus');

@@ -280,7 +280,7 @@ class InstitutesController extends Controller
         return view('main_super_admin.dashboard.result.view_result', [
             'pagename' => $pagename,
         ]);
-        // ? View Time Table 
+        // ? View Time Table
     }
     public function view_timeTable(Request $request)
     {
@@ -289,7 +289,6 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-
 
     // Digital library
     public function digital_library(Request $request)
@@ -405,12 +404,9 @@ class InstitutesController extends Controller
     public function all_employees(Request $request)
     {
         $pagename = 'All Employees';
-        return view(
-            'main_super_admin.dashboard.hr_screens.all_employees',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.hr_screens.all_employees', [
+            'pagename' => $pagename,
+        ]);
     }
     public function add_employees(Request $request)
     {
@@ -419,7 +415,6 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-
 
     // ? Employee attendance
     public function employees_attendance(Request $request)
@@ -435,12 +430,9 @@ class InstitutesController extends Controller
     public function add_attendance(Request $request)
     {
         $pagename = 'Employees Attendance';
-        return view(
-            'main_super_admin.dashboard.hr_screens.add_attendance',
-            [
-                'pagename' => $pagename,
-            ]
-        );
+        return view('main_super_admin.dashboard.hr_screens.add_attendance', [
+            'pagename' => $pagename,
+        ]);
     }
 
     public function all_holidays(Request $request)
@@ -491,6 +483,41 @@ class InstitutesController extends Controller
         $pagename = 'Add New Department';
         return view(
             'main_super_admin.dashboard.hr_screens.add_new_department',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // Account (payroll)
+
+    public function salary(Request $request)
+    {
+        $pagename = 'Salary';
+        return view(
+            'main_super_admin.dashboard.account-screens.payroll.salary',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    // deduction
+    public function deduction(Request $request)
+    {
+        $pagename = 'deduction';
+        return view(
+            'main_super_admin.dashboard.account-screens.payroll.deduction',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    // bonus
+    public function bonus(Request $request)
+    {
+        $pagename = 'bonus';
+        return view(
+            'main_super_admin.dashboard.account-screens.payroll.bonus',
             [
                 'pagename' => $pagename,
             ]
