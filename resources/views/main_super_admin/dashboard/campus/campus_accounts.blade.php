@@ -76,28 +76,45 @@
                 <h3 class="text-center">Payroll</h3>
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('salary') }}">
+
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/accounts/salary.png" alt="">
                             </div>
                             <h5>Salary</h5>
                         </div>
+                        </a>
                     </div>
+<<<<<<< HEAD
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+=======
+                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('deduction') }}">
+
+>>>>>>> 07446be4a9649400a53441bb3ef98876fde42b8f
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/accounts/deduction.png" alt="">
                             </div>
+                        </a>
                             <h5>Deduction</h5>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+=======
+                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('bonus') }}">
+
+>>>>>>> 07446be4a9649400a53441bb3ef98876fde42b8f
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/accounts/bonuns.png" alt="">
                             </div>
                             <h5>Bonus</h5>
                         </div>
+                        </a>
                     </div>
 
                 </div>

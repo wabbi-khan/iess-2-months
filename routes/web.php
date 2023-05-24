@@ -260,6 +260,7 @@ Route::get('/add-new-department', [
     'add_new_department',
 ])->name('add-new-department');
 
+<<<<<<< HEAD
 
 // ? Fees management
 Route::get('/student-fees', [
@@ -285,3 +286,13 @@ Route::get('/fees-record', [
     InstitutesController::class,
     'fees_record',
 ])->name('fees-record');
+=======
+// accounts
+Route::get('/salary', [InstitutesController::class, 'salary'])->name('salary');
+// deduction
+Route::get('/deduction', [InstitutesController::class, 'deduction'])->name(
+    'deduction'
+);
+// bonus
+Route::get('/bonus', [InstitutesController::class, 'bonus'])->name('bonus');
+>>>>>>> 07446be4a9649400a53441bb3ef98876fde42b8f
