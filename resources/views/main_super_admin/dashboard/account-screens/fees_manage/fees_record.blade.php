@@ -22,7 +22,7 @@
                     <li>
                         <a href="index.php">Home</a>
                     </li>
-                    <li>Stdent Fess Status</li>
+                    <li>Student Fees Status</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->

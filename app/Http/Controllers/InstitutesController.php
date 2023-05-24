@@ -489,7 +489,6 @@ class InstitutesController extends Controller
         );
     }
 
-<<<<<<< HEAD
     // ? Fees management
     public function student_fees(Request $request)
     {
@@ -508,7 +507,11 @@ class InstitutesController extends Controller
         $pagename = 'Student Challan';
         return view(
             'main_super_admin.dashboard.account-screens.fees_manage.student_challan',
-=======
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
     // Account (payroll)
 
     public function salary(Request $request)
@@ -516,13 +519,11 @@ class InstitutesController extends Controller
         $pagename = 'Salary';
         return view(
             'main_super_admin.dashboard.account-screens.payroll.salary',
->>>>>>> 07446be4a9649400a53441bb3ef98876fde42b8f
             [
                 'pagename' => $pagename,
             ]
         );
     }
-<<<<<<< HEAD
 
     // ? Student Challan
     public function confirm_fees(Request $request)
@@ -530,41 +531,42 @@ class InstitutesController extends Controller
         $pagename = 'Confirm Fees';
         return view(
             'main_super_admin.dashboard.account-screens.fees_manage.confirm_fees',
-=======
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
     // deduction
     public function deduction(Request $request)
     {
         $pagename = 'deduction';
         return view(
             'main_super_admin.dashboard.account-screens.payroll.deduction',
->>>>>>> 07446be4a9649400a53441bb3ef98876fde42b8f
             [
                 'pagename' => $pagename,
             ]
         );
     }
-<<<<<<< HEAD
     // ? Student fees record
     public function fees_record(Request $request)
     {
         $pagename = 'Confirm Fees';
         return view(
             'main_super_admin.dashboard.account-screens.fees_manage.fees_record',
-=======
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
     // bonus
     public function bonus(Request $request)
     {
         $pagename = 'bonus';
         return view(
             'main_super_admin.dashboard.account-screens.payroll.bonus',
->>>>>>> 07446be4a9649400a53441bb3ef98876fde42b8f
             [
                 'pagename' => $pagename,
             ]
         );
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 07446be4a9649400a53441bb3ef98876fde42b8f
