@@ -26,45 +26,54 @@
             <!-- Breadcubs Area End Here -->
             <!-- Admit Form Area Start Here -->
 
-            
+
             <div class="container payroll-heading">
-              
+
                 <h3 class="text-center">Fees Management</h3>
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/accounts/fees.png" alt="">
+                        <a href="{{ route('student-fees') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/accounts/fees.png" alt="">
+                                </div>
+                                <h5>Fees</h5>
                             </div>
-                            <h5>Fees</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/accounts/challans.png" alt="">
-                            </div>
-                            <h5>Challans</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/accounts/fees confirm.png" alt="">
-                            </div>
-                            <h5>Confirm Fees</h5>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <div class="box-main-card">
-                            <div class="card-content">
-                                <img src="assets/accounts/fees record.png" alt="">
+                        <a href="{{ route('student-challan') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/accounts/challans.png" alt="">
+                                </div>
+                                <h5>Challans</h5>
                             </div>
-                            <h5>Fees Record</h5>
-                        </div>
-                    </div>  
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('confirm-fees') }}">
+
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/accounts/fees confirm.png" alt="">
+                                </div>
+                                <h5>Confirm Fees</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('fees-record') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/accounts/fees record.png" alt="">
+                                </div>
+                                <h5>Fees Record</h5>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                  <h3 class="text-center">Payroll</h3>
+                <h3 class="text-center">Payroll</h3>
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
@@ -74,7 +83,7 @@
                             <h5>Salary</h5>
                         </div>
                     </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/accounts/deduction.png" alt="">
@@ -82,7 +91,7 @@
                             <h5>Deduction</h5>
                         </div>
                     </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/accounts/bonuns.png" alt="">
@@ -92,7 +101,7 @@
                     </div>
 
                 </div>
-                
+
                 <h3 class="text-center">Inventory & Billing Management</h3>
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
@@ -103,7 +112,7 @@
                             <h5>All Inventory</h5>
                         </div>
                     </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/accounts/new item.png" alt="">
@@ -111,7 +120,7 @@
                             <h5>Add New Item</h5>
                         </div>
                     </div>
-                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <div class="box-main-card">
                             <div class="card-content">
                                 <img src="assets/accounts/billing.png" alt="">
@@ -119,17 +128,17 @@
                             <h5>Billings</h5>
                         </div>
                     </div>
-                    
+
                 </div>
 
 
             </div>
-<br>
+            <br>
             <div class="text-center">
                 @include('main_super_admin.dashboard.include.poweredby')
 
             </div>
-        
+
         </div>
     </div>
     <!-- Page Area End Here -->

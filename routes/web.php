@@ -259,3 +259,29 @@ Route::get('/add-new-department', [
     InstitutesController::class,
     'add_new_department',
 ])->name('add-new-department');
+
+
+// ? Fees management
+Route::get('/student-fees', [
+    InstitutesController::class,
+    'student_fees',
+])->name('student-fees');
+
+// ? Challan
+Route::get('/student-challan', [
+    InstitutesController::class,
+    'student_challan',
+])->name('student-challan');
+
+
+// ? Challan
+Route::get('/confirm-fees', [
+    InstitutesController::class,
+    'confirm_fees',
+])->name('confirm-fees');
+
+// ? // ? Student fees record
+Route::get('/fees-record', [
+    InstitutesController::class,
+    'fees_record',
+])->name('fees-record');

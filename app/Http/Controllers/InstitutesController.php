@@ -496,4 +496,51 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? Fees management
+    public function student_fees(Request $request)
+    {
+        $pagename = 'Student Fees';
+        return view(
+            'main_super_admin.dashboard.account-screens.fees_manage.fees',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // ? Student Challan
+    public function student_challan(Request $request)
+    {
+        $pagename = 'Student Challan';
+        return view(
+            'main_super_admin.dashboard.account-screens.fees_manage.student_challan',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // ? Student Challan
+    public function confirm_fees(Request $request)
+    {
+        $pagename = 'Confirm Fees';
+        return view(
+            'main_super_admin.dashboard.account-screens.fees_manage.confirm_fees',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    // ? Student fees record
+    public function fees_record(Request $request)
+    {
+        $pagename = 'Confirm Fees';
+        return view(
+            'main_super_admin.dashboard.account-screens.fees_manage.fees_record',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }
