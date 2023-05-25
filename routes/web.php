@@ -260,7 +260,6 @@ Route::get('/add-new-department', [
     'add_new_department',
 ])->name('add-new-department');
 
-
 // ? Fees management
 Route::get('/student-fees', [
     InstitutesController::class,
@@ -273,7 +272,6 @@ Route::get('/student-challan', [
     'student_challan',
 ])->name('student-challan');
 
-
 // ? Challan
 Route::get('/confirm-fees', [
     InstitutesController::class,
@@ -281,10 +279,9 @@ Route::get('/confirm-fees', [
 ])->name('confirm-fees');
 
 // ? // ? Student fees record
-Route::get('/fees-record', [
-    InstitutesController::class,
-    'fees_record',
-])->name('fees-record');
+Route::get('/fees-record', [InstitutesController::class, 'fees_record'])->name(
+    'fees-record'
+);
 // accounts
 Route::get('/salary', [InstitutesController::class, 'salary'])->name('salary');
 // deduction
@@ -293,3 +290,17 @@ Route::get('/deduction', [InstitutesController::class, 'deduction'])->name(
 );
 // bonus
 Route::get('/bonus', [InstitutesController::class, 'bonus'])->name('bonus');
+// inventory
+Route::get('/add-inventory', [
+    InstitutesController::class,
+    'add_inventory',
+])->name('add-inventory');
+// all inventory
+Route::get('/all-inventory', [
+    InstitutesController::class,
+    'all_inventory',
+])->name('all-inventory');
+// billing
+Route::get('/billing', [InstitutesController::class, 'billing'])->name(
+    'billing'
+);

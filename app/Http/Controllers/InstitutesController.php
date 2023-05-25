@@ -569,4 +569,40 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    //add inventory
+    public function add_inventory(Request $request)
+    {
+        $pagename = 'add Inventory';
+        return view(
+            'main_super_admin.dashboard.account-screens.inventory-billing.add-inventory',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // all inventory
+    public function all_inventory(Request $request)
+    {
+        $pagename = 'All Inventory';
+        return view(
+            'main_super_admin.dashboard.account-screens.inventory-billing.all-inventory',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // billing
+    public function billing(Request $request)
+    {
+        $pagename = 'billing';
+        return view(
+            'main_super_admin.dashboard.account-screens.inventory-billing.billing',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }
