@@ -145,20 +145,11 @@
                                     <td>Jan</td>
 
                                     <td>
-                                        <div class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                                aria-expanded="false">
-                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="#">
-                                                    <i class="fas fa-times text-orange-red"></i>Delete</a>
-                                                <a class="dropdown-item" href="#">
-                                                    <i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                <a class="dropdown-item" href="{{ route('view-student') }}">
-                                                    <i class="fas fa-redo-alt text-orange-peel"></i>View</a>
-                                            </div>
-                                        </div>
+                                        <a href="{{ route('print-challan') }}">
+
+                                            <button class="btn btn-success text-white text-12 py-3">Print
+                                                challan</button>
+                                        </a>
                                     </td>
                                 </tr>
                             </tbody>

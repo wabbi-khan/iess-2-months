@@ -304,3 +304,8 @@ Route::get('/all-inventory', [
 Route::get('/billing', [InstitutesController::class, 'billing'])->name(
     'billing'
 );
+
+// ? print challan
+Route::get('/print-challan', [InstitutesController::class, 'print_challan'])->name(
+    'print-challan'
+);

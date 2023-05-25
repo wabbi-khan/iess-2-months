@@ -605,4 +605,16 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? print challan
+    public function print_challan(Request $request)
+    {
+        $pagename = 'billing';
+        return view(
+            'main_super_admin.dashboard.account-screens.fees_manage.print_challan',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }
