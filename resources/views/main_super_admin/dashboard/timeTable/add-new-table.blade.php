@@ -23,16 +23,10 @@
                     <li>Student form</li>
                 </ul>
             </div>
-            <!-- Breadcubs Area End Here -->
-            <!-- Admit Form Area Start Here -->
+        
             <div class="card height-auto">
                 <div class="card-body">
-                    <!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        <strong>Congratulations!</strong>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div> -->
+                   
                     <div class="heading-layout1">
                         <div class="item-title Add-student m-auto justify-content-center">
                             <h3>Class Details</h3>
@@ -70,7 +64,7 @@
                           
                        </div>
 
-                        <!-- Parents Details -->
+                        <!-- Time table detail -->
                         <div class="heading-layout1">
                             <div class="item-title Add-student m-auto justify-content-center">
                                 <h3>Add Timetable</h3>
@@ -237,7 +231,7 @@
 
                         </div>
 
-                 <hr/>
+                             <hr/>
                             <div class="col-12 form-group mg-t-8">
                                 <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">
                                     Add
