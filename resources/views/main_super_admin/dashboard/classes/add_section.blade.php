@@ -42,13 +42,16 @@
                     <form class="new-added-form" action="#" method="POST">
                         <div class="row d-flex justify-content-center">
                             <div class="col-xl-6 col-lg-6 col-12 form-group">
-                                <label>Select Class *</label>
-                                <input type="text" name="first_name" id="first_name" placeholder="Class  Name"
-                                    required class="form-control" />
+                                <label>Class *</label>
+                                <select class="form-control" id="inputGroupSelect02">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-12 form-group">
                                 <label>Add Section *</label>
-                                <input type="text" name="first_name" id="first_name" placeholder="Class  Name"
+                                <input type="text" name="first_name" id="first_name" placeholder="e.g (A, B or C)"
                                     required class="form-control" />
                             </div>
 

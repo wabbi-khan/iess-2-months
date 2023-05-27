@@ -36,28 +36,24 @@
                     <form class="new-added-form" action="#" method="">
                         <div class="row d-flex align-items-center">
 
-                            <div class="col-xl-3 col-lg-4 col-12 form-group">
+                            <div class="col-xl-6 col-lg-4 col-12 form-group">
                                 <label>Department Name*</label>
                                 <input type="text" name="dept_name" id="dept_name" required placeholder="Enter name"
                                     class="form-control" />
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-12 form-group">
-                                <label>Date*</label>
-                                <input type="date" name="date" id="date" required
-                                    class="form-control" />
-                            </div>
-                             
+
+
                             <br>
 
-                           <div class="col-12 form-group mg-t-8">
+                            <div class="col-6  form-group mg-t-8">
                                 <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">
                                     Add
                                 </button>
                             </div>
                         </div>
                     </form>
-                  
-                   
+
+
                 </div>
             </div>
         </div>

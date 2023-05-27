@@ -74,6 +74,11 @@
                                 <textarea class="form-control" placeholder="Write Description about leave" id="" rows="3"></textarea>
                             </div>
                         </div>
+                        <div class="col-2-xxxl col-lg-3 col-12 mt-4 mx-auto">
+                            <button type="submit" class="fw-btn-fill btn-gradient-yellow">
+                                Submit
+                            </button>
+                        </div>
 
                     </form>
 
