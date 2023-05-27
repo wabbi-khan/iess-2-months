@@ -142,6 +142,15 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // change class
+    public function change_class(Request $request)
+    {
+        $pagename = 'Change Class';
+        return view('main_super_admin.dashboard.admissions.change-class', [
+            'pagename' => $pagename,
+        ]);
+    }
+
     // add new Students
     public function add_Student(Request $request)
     {

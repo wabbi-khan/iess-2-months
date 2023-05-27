@@ -66,11 +66,12 @@
                             </div>
                         </div>
                     </form>
-                    {{-- <form class="mg-b-20"> --}}
+                    <form class="mg-b-20">
                     <div class="row d-flex justify-content-end gutters-8 my-5">
                         <div class="col-5-xxxl col-xl-3 col-lg-3 col-12 form-group">
                             <input type="text" placeholder="Search by..." class="form-control" />
                         </div>
+                        
 
                         <div class="col-1-xxxl col-xl-2 col-lg-3 col-12 form-group">
                             <button type="submit" class="fw-btn-fill btn-gradient-yellow">
@@ -78,15 +79,11 @@
                             </button>
                         </div>
                     </div>
-                    {{-- </form> --}}
+                    </form>
+                    
                     <div class="table-responsive">
-                        <div class="heading-layout1">
-                            <div class="item-title">
-                                <h3>Check Result
-                                </h3>
-                            </div>
-
-                        </div>
+                       
+                        
                         <table class="table display data-table text-nowrap">
                             <thead>
                                 <tr>
@@ -115,7 +112,7 @@
                                         </div>
                                     </td>
                                     <!-- <td class="text-center">
-                                        <img src="/main_assets/img/figure/student2.png" alt="student" />
+                                         <img src="/main_assets/img/figure/student2.png" alt="student" />
                                     </td> -->
                                     <td>Wahab</td>
                                     <td>1</td>
@@ -123,7 +120,11 @@
                                     <td>20</td>
                                     <td>15</td>
                                     <td>5</td>
-                                    <td>93%</td>
+                                    <td>
+                                             <button type="submit" style="font-size:13px ; padding:5px 15px" class="btn btn-success text-white ">
+                                                 Print
+                                             </button>
+                                    </td>
                                     <td>
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"
@@ -144,6 +145,18 @@
                             </tbody>
                         </table>
                     </div>
+                     
+                        <div class="row mt-5  d-flex justify-content-start">
+
+                        <div class="col-2-xxxl col-xl-3 col-lg-3 col-12 form-group">
+                         <a href="{{ route('add-new-book') }}">
+                        <button type="submit"  style="font-size:13px ; padding:5px 15px" class="btn btn-success text-white ">
+                            Print All
+                        </button>
+                        </a>
+                        </div>
+
+            </div>
                 </div>
             </div>
         </div>

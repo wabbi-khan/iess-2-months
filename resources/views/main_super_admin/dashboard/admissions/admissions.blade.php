@@ -91,6 +91,7 @@
                                     <th>Section</th>
                                     <th>House</th>
                                     <th>Enrollment</th>
+                                    <th>change class</th>
                                     <th>More</th>
                                 </tr>
                             </thead>
@@ -111,6 +112,13 @@
                                     <td>Section 1</td>
                                     <td>house 242</td>
                                     <td>343</td>
+                                    <td> 
+                                        <a href="{{ route('change-class') }}">
+                                         <button type="submit"  style="font-size:13px ; padding:5px 15px" class="btn btn-success text-white ">
+                                        Change class
+                                        </button>
+                                        </a>
+                                    </td>
                                     <td>
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"

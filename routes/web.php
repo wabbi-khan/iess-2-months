@@ -19,7 +19,6 @@ Route::get('/', function () {
 });
 
 // ? Super admin routes
-
 Route::get('/main-dashboard', [
     InstitutesController::class,
     'main_dashboard',
@@ -83,6 +82,11 @@ Route::get('/campus-accounts', [
 Route::get('/admissions', [InstitutesController::class, 'admissions'])->name(
     'admissions'
 );
+// change class
+Route::get('/change-class', [InstitutesController::class, 'change_class'])->name(
+    'change-class'
+);
+
 Route::get('/add-Student', [InstitutesController::class, 'add_Student'])->name(
     'add-Student'
 );
@@ -90,6 +94,7 @@ Route::get('/view-student', [
     InstitutesController::class,
     'view_student',
 ])->name('view-student');
+
 
 Route::get('/view-attendance', [
     InstitutesController::class,
