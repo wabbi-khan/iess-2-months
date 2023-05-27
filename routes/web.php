@@ -83,9 +83,10 @@ Route::get('/admissions', [InstitutesController::class, 'admissions'])->name(
     'admissions'
 );
 // change class
-Route::get('/change-class', [InstitutesController::class, 'change_class'])->name(
-    'change-class'
-);
+Route::get('/change-class', [
+    InstitutesController::class,
+    'change_class',
+])->name('change-class');
 
 Route::get('/add-Student', [InstitutesController::class, 'add_Student'])->name(
     'add-Student'
@@ -94,7 +95,6 @@ Route::get('/view-student', [
     InstitutesController::class,
     'view_student',
 ])->name('view-student');
-
 
 Route::get('/view-attendance', [
     InstitutesController::class,
@@ -305,12 +305,19 @@ Route::get('/all-inventory', [
     InstitutesController::class,
     'all_inventory',
 ])->name('all-inventory');
+
 // billing
 Route::get('/billing', [InstitutesController::class, 'billing'])->name(
     'billing'
 );
-
 // ? print challan
-Route::get('/print-challan', [InstitutesController::class, 'print_challan'])->name(
-    'print-challan'
-);
+Route::get('/print-challan', [
+    InstitutesController::class,
+    'print_challan',
+])->name('print-challan');
+
+// add-new-timetable
+Route::get('/add-new-timetable', [
+    InstitutesController::class,
+    'add_new_timetable',
+])->name('add-new-timetable');
