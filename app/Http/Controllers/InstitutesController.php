@@ -212,6 +212,15 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // add new timetable
+    public function add_new_timetable(Request $request)
+    {
+        $pagename = 'Add New Timetable';
+        return view('main_super_admin.dashboard.timeTable.add-new-table', [
+            'pagename' => $pagename,
+        ]);
+    }
+
     public function pro_studentClassData(Request $request)
     {
         $pagename = 'Promote Student Data';
