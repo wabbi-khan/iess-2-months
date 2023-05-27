@@ -81,7 +81,8 @@
                             </div>
                         </div>
                     </form>
-                    {{-- <form class="mg-b-20"> --}}
+                 <form class="mg-b-20">
+                       
                     <div class="row d-flex justify-content-end gutters-8 my-5">
                         <div class="col-5-xxxl col-xl-3 col-lg-3 col-12 form-group">
                             <input type="text" placeholder="Search by..." class="form-control" />
@@ -93,7 +94,7 @@
                             </button>
                         </div>
                     </div>
-                    {{-- </form> --}}
+                   </form>
                     <div class="table-responsive">
                         <div class="heading-layout1">
                             <div class="item-title">
@@ -159,6 +160,17 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="mt-5 row  d-flex justify-content-start">
+
+                <div class="col-2-xxxl col-xl-3 col-lg-3 col-12 form-group">
+                    <a href="#">
+                        <button type="submit" class="fw-btn-fill btn-gradient-yellow">
+                            Print
+                        </button>
+                    </a>
+                </div>
+
+            </div>
                 </div>
             </div>
         </div>
