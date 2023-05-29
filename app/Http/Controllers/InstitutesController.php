@@ -635,4 +635,28 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? Teacher screen
+    public function teacher_screen(Request $request)
+    {
+        $pagename = 'billing';
+        return view(
+            'main_super_admin.dashboard.teacher_screens.teacher_screen',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
+    // ? all_student_attendance_mark
+    public function all_student_attendance_mark(Request $request)
+    {
+        $pagename = 'billing';
+        return view(
+            'main_super_admin.dashboard.teacher_screens.allStudentAttendance',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }

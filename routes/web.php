@@ -321,3 +321,15 @@ Route::get('/add-new-timetable', [
     InstitutesController::class,
     'add_new_timetable',
 ])->name('add-new-timetable');
+
+// ? Teacher Screens
+Route::get('/teacher-screen', [
+    InstitutesController::class,
+    'teacher_screen',
+])->name('teacher-screen');
+
+// ? All student attendance mark
+Route::get('/all-student-attendance-mark', [
+    InstitutesController::class,
+    'all_student_attendance_mark',
+])->name('all-student-attendance-mark');
