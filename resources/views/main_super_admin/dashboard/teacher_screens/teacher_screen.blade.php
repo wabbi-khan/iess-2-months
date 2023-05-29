@@ -34,7 +34,7 @@
                         <a href="{{ route('all-student-attendance-mark') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/Exam and HR/employee-01.png" alt="">
+                                    <img src="assets/teacher/attendance.png" alt="">
                                 </div>
                                 <h5>Attendance</h5>
                             </div>
@@ -44,7 +44,7 @@
                         <a href="{{ route('employees-attendance') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/Exam and HR/attendance-01.png" alt="">
+                                    <img src="assets/teacher/result3-01.png" alt="">
                                 </div>
                                 <h5>Result</h5>
                             </div>
@@ -55,7 +55,7 @@
                         <a href="{{ route('all-holidays') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/Exam and HR/public holiday.png" alt="">
+                                    <img src="assets/teacher/recorded.png" alt="">
                                 </div>
                                 <h5>Recorded Lectures</h5>
                             </div>
@@ -66,7 +66,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/Exam and HR/departments-01.png" alt="">
+                                    <img src="assets/teacher/diary.png" alt="">
                                 </div>
                                 <h5>Diary/Assignments</h5>
                             </div>
@@ -77,7 +77,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/Exam and HR/departments-01.png" alt="">
+                                    <img src="assets/teacher/course-material.png" alt="">
                                 </div>
                                 <h5>Course Material</h5>
                             </div>
@@ -88,29 +88,19 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/Exam and HR/departments-01.png" alt="">
+                                    <img src="assets/teacher/time-table.png" alt="">
                                 </div>
                                 <h5>Time Table</h5>
                             </div>
                         </a>
                     </div>
+
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('all-department') }}">
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/Exam and HR/departments-01.png" alt="">
-                                </div>
-                                <h5>Course Material</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-department') }}">
-
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/Exam and HR/departments-01.png" alt="">
+                                    <img src="assets/teacher/event.png" alt="">
                                 </div>
                                 <h5>Events</h5>
                             </div>
