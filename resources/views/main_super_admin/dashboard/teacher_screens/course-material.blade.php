@@ -67,16 +67,21 @@
                             </div>
                         </div>
                         <div class="row">
-                            
+
 
                             <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <input type="text" name="course_tilte" id="course_tilte" placeholder="Course Material Title" required
+                                <input type="text" name="course_tilte" id="course_tilte"
+                                    placeholder="Course Material Title" required class="form-control" />
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-12 form-group">
+                                <input type="date" name="user_name" id="user_name" placeholder=".." required
                                     class="form-control" />
                             </div>
                             <div class="col-xl-4 col-lg-6 col-12 form-group">
                                 <input type="file" name="user_name" id="user_name" placeholder=".." required
                                     class="form-control" />
                             </div>
+
 
 
 
@@ -88,7 +93,7 @@
                         </div>
                     </form>
 
-                    <hr style="height:4px; background:#ffae01"/>
+                    <hr style="height:4px; background:#ffae01" />
                     <form class="mg-b-20">
                         <div class="row d-flex justify-content-end gutters-8 my-5">
                             <div class="col-5-xxxl col-xl-3 col-lg-3 col-12 form-group">
@@ -159,7 +164,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                       
+
                     </div>
                     <div class="d-flex justify-content-center mt-5">
 

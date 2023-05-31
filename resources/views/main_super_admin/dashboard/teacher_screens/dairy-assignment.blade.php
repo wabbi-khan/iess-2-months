@@ -67,7 +67,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            
+
 
                             <div class="col-xl-12 col-lg-6 col-12 form-group">
                                 <textarea type="textarea" class="form-control" id="diary" placeholder="Enter New Diary Note"></textarea>
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                     </form>
-                    <hr style="height:4px; background:#ffae01"/>
+                    <hr style="height:4px; background:#ffae01" />
                     <form class="mg-b-20">
                         <div class="row d-flex justify-content-end gutters-8 my-5">
                             <div class="col-5-xxxl col-xl-3 col-lg-3 col-12 form-group">
@@ -111,11 +111,11 @@
                                             <label class="form-check-label">ID</label>
                                         </div>
                                     </th>
-                                    <th>Student Name</th>
-                                    <th>Obtain Marks</th>
-                                    <th>Total Marks</th>
-                                    <th>%</th>
-                                    <th>Grade</th>
+                                    <th>Class</th>
+                                    <th>Section</th>
+                                    <th>Subject</th>
+                                    <th>Diary Notes</th>
+                                    <th>Date</th>
                                     <th>More</th>
                                 </tr>
                             </thead>
