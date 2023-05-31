@@ -659,4 +659,16 @@ class InstitutesController extends Controller
             ]
         );
     }
+
+    // ? result screen on teacher
+    public function teacher_result(Request $request)
+    {
+        $pagename = 'billing';
+        return view(
+            'main_super_admin.dashboard.teacher_screens.result',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
 }

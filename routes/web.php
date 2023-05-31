@@ -333,3 +333,9 @@ Route::get('/all-student-attendance-mark', [
     InstitutesController::class,
     'all_student_attendance_mark',
 ])->name('all-student-attendance-mark');
+
+// ? result screen on teacher
+Route::get('/teacher-result', [
+    InstitutesController::class,
+    'teacher_result',
+])->name('teacher-result');

@@ -41,7 +41,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('employees-attendance') }}">
+                        <a href="{{ route('teacher-result') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/teacher/result3-01.png" alt="">
