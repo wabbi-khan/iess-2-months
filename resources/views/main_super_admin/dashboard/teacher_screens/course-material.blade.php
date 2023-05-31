@@ -20,7 +20,7 @@
                     <li>
                         <a href="index.php">Home</a>
                     </li>
-                    <li>Result Details</li>
+                    <li>Course Materials</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->
@@ -30,7 +30,7 @@
 
                     <div class="heading-layout1">
                         <div class="item-title">
-                            <h3>Select Details</h3>
+                            <h3>Upload Material</h3>
                         </div>
 
                     </div>
@@ -67,23 +67,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <select name="classid" class="form-control classid">
-                                    <option value="" selected="" disabled="">Exam type</option>
-                                    <option value="1">Mid term</option>
-                                    <option value="2">Final term</option>
-
-                                </select>
-                            </div>
+                            
 
                             <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                {{-- <label>Email/username*</label> --}}
-                                <input type="text" name="user_name" id="user_name" placeholder="Max Marks.." required
+                                <input type="text" name="course_tilte" id="course_tilte" placeholder="Course Material Title" required
                                     class="form-control" />
                             </div>
                             <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                {{-- <label>Email/username*</label> --}}
-                                <input type="text" name="user_name" id="user_name" placeholder="Min Marks.." required
+                                <input type="file" name="user_name" id="user_name" placeholder=".." required
                                     class="form-control" />
                             </div>
 
@@ -91,11 +82,13 @@
 
                             <div class="col-12 d-flex justify-content-center  mg-t-8">
                                 <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">
-                                    Submit
+                                    Upload
                                 </button>
                             </div>
                         </div>
                     </form>
+
+                    <hr style="height:4px; background:#ffae01"/>
                     <form class="mg-b-20">
                         <div class="row d-flex justify-content-end gutters-8 my-5">
                             <div class="col-5-xxxl col-xl-3 col-lg-3 col-12 form-group">
@@ -123,11 +116,12 @@
                                             <label class="form-check-label">ID</label>
                                         </div>
                                     </th>
-                                    <th>Student Name</th>
-                                    <th>Obtain Marks</th>
-                                    <th>Total Marks</th>
-                                    <th>%</th>
-                                    <th>Grade</th>
+                                    <th>Class</th>
+                                    <th>Section</th>
+                                    <th>Subject</th>
+                                    <th>Course Material Title</th>
+                                    <th>Course Material File</th>
+                                    <th>Upload Date</th>
                                     <th>More</th>
                                 </tr>
                             </thead>
@@ -141,6 +135,7 @@
                                     </td>
 
                                     <td>Wahab</td>
+                                    <td>130</td>
                                     <td>130</td>
                                     <td>150</td>
                                     <td>80%</td>
@@ -164,13 +159,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="row my-4">
-                            <div class="col-md-12 d-flex justify-content-center align-content-center">
-                                <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">
-                                    Finish
-                                </button>
-                            </div>
-                        </div>
+                       
                     </div>
                     <div class="d-flex justify-content-center mt-5">
 

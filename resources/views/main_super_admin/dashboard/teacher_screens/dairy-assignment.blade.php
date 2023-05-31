@@ -20,7 +20,7 @@
                     <li>
                         <a href="index.php">Home</a>
                     </li>
-                    <li>Result Details</li>
+                    <li>Assignments</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->
@@ -30,7 +30,7 @@
 
                     <div class="heading-layout1">
                         <div class="item-title">
-                            <h3>Select Details</h3>
+                            <h3>Diary/Assignments</h3>
                         </div>
 
                     </div>
@@ -67,24 +67,10 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <select name="classid" class="form-control classid">
-                                    <option value="" selected="" disabled="">Exam type</option>
-                                    <option value="1">Mid term</option>
-                                    <option value="2">Final term</option>
+                            
 
-                                </select>
-                            </div>
-
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                {{-- <label>Email/username*</label> --}}
-                                <input type="text" name="user_name" id="user_name" placeholder="Max Marks.." required
-                                    class="form-control" />
-                            </div>
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                {{-- <label>Email/username*</label> --}}
-                                <input type="text" name="user_name" id="user_name" placeholder="Min Marks.." required
-                                    class="form-control" />
+                            <div class="col-xl-12 col-lg-6 col-12 form-group">
+                                <textarea type="textarea" class="form-control" id="diary" placeholder="Enter New Diary Note"></textarea>
                             </div>
 
 
@@ -96,6 +82,7 @@
                             </div>
                         </div>
                     </form>
+                    <hr style="height:4px; background:#ffae01"/>
                     <form class="mg-b-20">
                         <div class="row d-flex justify-content-end gutters-8 my-5">
                             <div class="col-5-xxxl col-xl-3 col-lg-3 col-12 form-group">
@@ -110,6 +97,7 @@
                             </div>
                         </div>
                     </form>
+
 
                     <div class="table-responsive">
 

@@ -664,11 +664,57 @@ class InstitutesController extends Controller
     public function teacher_result(Request $request)
     {
         $pagename = 'billing';
+        return view('main_super_admin.dashboard.teacher_screens.result', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // ? recorded screen on teacher
+    public function recorded_lectures(Request $request)
+    {
+        $pagename = 'recorded_lectures';
         return view(
-            'main_super_admin.dashboard.teacher_screens.result',
+            'main_super_admin.dashboard.teacher_screens.recorded-lectures',
             [
                 'pagename' => $pagename,
             ]
         );
+    }
+    // diary assignment
+    public function diary(Request $request)
+    {
+        $pagename = 'diary';
+        return view(
+            'main_super_admin.dashboard.teacher_screens.dairy-assignment',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    // course material
+    public function course_material(Request $request)
+    {
+        $pagename = 'diary';
+        return view(
+            'main_super_admin.dashboard.teacher_screens.course-material',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    // event
+    public function events(Request $request)
+    {
+        $pagename = 'event';
+        return view('main_super_admin.dashboard.teacher_screens.events', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // timetable
+    public function timetable(Request $request)
+    {
+        $pagename = 'timetable';
+        return view('main_super_admin.dashboard.teacher_screens.timetable', [
+            'pagename' => $pagename,
+        ]);
     }
 }

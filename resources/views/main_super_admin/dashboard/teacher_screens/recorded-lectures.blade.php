@@ -20,7 +20,7 @@
                     <li>
                         <a href="index.php">Home</a>
                     </li>
-                    <li>Result Details</li>
+                    <li>Recorded Lectures</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->
@@ -67,25 +67,21 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <select name="classid" class="form-control classid">
-                                    <option value="" selected="" disabled="">Exam type</option>
-                                    <option value="1">Mid term</option>
-                                    <option value="2">Final term</option>
+                         
 
-                                </select>
+                            <div class="col-xl-4 col-lg-6 col-12 form-group">
+                                <input type="text" name="lecture_title" id="lecture_title" placeholder="Lecture Title.." required
+                                    class="form-control" />
                             </div>
-
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                {{-- <label>Email/username*</label> --}}
-                                <input type="text" name="user_name" id="user_name" placeholder="Max Marks.." required
+                             <div class="col-xl-4 col-lg-6 col-12 form-group">
+                                <input type="date" name="upload_date" id="upload_date" placeholder="Add Date.." required
                                     class="form-control" />
                             </div>
                             <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                {{-- <label>Email/username*</label> --}}
-                                <input type="text" name="user_name" id="user_name" placeholder="Min Marks.." required
+                                <input type="text" name="yt_link" id="yt_link" placeholder="Youtube Link.." required
                                     class="form-control" />
                             </div>
+
 
 
 
@@ -123,11 +119,12 @@
                                             <label class="form-check-label">ID</label>
                                         </div>
                                     </th>
-                                    <th>Student Name</th>
-                                    <th>Obtain Marks</th>
-                                    <th>Total Marks</th>
-                                    <th>%</th>
-                                    <th>Grade</th>
+                                    <th>Class</th>
+                                    <th>Section</th>
+                                    <th>Subject</th>
+                                    <th>Lecture Title</th>
+                                    <th>Lecture</th>
+                                    <th>Upload Date</th>
                                     <th>More</th>
                                 </tr>
                             </thead>
@@ -144,6 +141,7 @@
                                     <td>130</td>
                                     <td>150</td>
                                     <td>80%</td>
+                                    <td>A+</td>
                                     <td>A+</td>
                                     <td>
                                         <div class="dropdown">
@@ -164,13 +162,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="row my-4">
-                            <div class="col-md-12 d-flex justify-content-center align-content-center">
-                                <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">
-                                    Finish
-                                </button>
-                            </div>
-                        </div>
+                     
                     </div>
                     <div class="d-flex justify-content-center mt-5">
 

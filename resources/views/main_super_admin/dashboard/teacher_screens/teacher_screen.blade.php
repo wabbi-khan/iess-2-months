@@ -52,7 +52,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-holidays') }}">
+                        <a href="{{ route('recorded-lectures') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/teacher/recorded.png" alt="">
@@ -62,7 +62,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-department') }}">
+                        <a href="{{ route('diary') }}">
 
                             <div class="box-main-card">
                                 <div class="card-content">
@@ -73,7 +73,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-department') }}">
+                        <a href="{{ route('course-material') }}">
 
                             <div class="box-main-card">
                                 <div class="card-content">
@@ -84,7 +84,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-department') }}">
+                        <a href="{{ route('timetable') }}">
 
                             <div class="box-main-card">
                                 <div class="card-content">
@@ -96,7 +96,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('all-department') }}">
+                        <a href="{{ route('events') }}">
 
                             <div class="box-main-card">
                                 <div class="card-content">

@@ -339,3 +339,25 @@ Route::get('/teacher-result', [
     InstitutesController::class,
     'teacher_result',
 ])->name('teacher-result');
+
+// recorded-lectures
+Route::get('/recorded-lectures', [
+    InstitutesController::class,
+    'recorded_lectures',
+])->name('recorded-lectures');
+
+// diary/assignment
+Route::get('/diary', [InstitutesController::class, 'diary'])->name('diary');
+
+// course material
+Route::get('/course-material', [
+    InstitutesController::class,
+    'course_material',
+])->name('course-material');
+
+// timetable
+Route::get('/timetable', [InstitutesController::class, 'timetable'])->name(
+    'timetable'
+);
+// events
+Route::get('/events', [InstitutesController::class, 'events'])->name('events');
