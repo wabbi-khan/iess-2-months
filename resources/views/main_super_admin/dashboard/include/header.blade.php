@@ -36,6 +36,27 @@
 
     <!-- Modernize js -->
     <script src="main_assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+        var room = 1;
+
+        function education_fields() {
+            room++;
+            var objTo = document.getElementById('education_fields')
+            var divtest = document.createElement("div");
+            divtest.setAttribute("class", "removeclass" + room);
+            var rdiv = 'removeclass' + room;
+            divtest.innerHTML =
+                '<div style="display:flex"><div class="col-xl-5 col-lg-5 col-12 form-group"><label>Room no * </label><input type="number" id="Degree" name="Degree[]" value="" placeholder="Total Floors in Hostel" class="form-control"/></div><div class="col-xl-5 col-lg-5 col-12 form-group"> <label>Total beds in room *</label><input type="number" id="Degree" name="Degree[]" value="" placeholder="Total Floors in Hostel" class="form-control"/></div><div class="col-xl-2 col-lg-2 col-12" style="margin-top:40px"><button class="btn btn-danger py-4 px-5" type="button" onclick="remove_education_fields(' +
+                room + ');"><i class="fa-solid fa-minus"></i></button></div></div>'
+
+            objTo.appendChild(divtest)
+        }
+
+        function remove_education_fields(rid) {
+            $('.removeclass' + rid).remove();
+        }
+    </script>
 </head>
 
 <body>

@@ -361,3 +361,9 @@ Route::get('/timetable', [InstitutesController::class, 'timetable'])->name(
 );
 // events
 Route::get('/events', [InstitutesController::class, 'events'])->name('events');
+
+// ? Hostel management
+Route::get('/hostel-manage', [InstitutesController::class, 'hostel_manage'])->name('hostel-manage');
+
+// ? create Hostel
+Route::get('/create-hostel', [InstitutesController::class, 'create_hostel'])->name('create-hostel');
