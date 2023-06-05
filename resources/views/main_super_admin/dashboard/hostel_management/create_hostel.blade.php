@@ -65,6 +65,21 @@
                                     class="form-control" />
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                <label>Total Rooms *</label>
+                                <input type="number" name="surname" id="surname" placeholder="Total Rooms"
+                                    class="form-control" />
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                <label>Food *</label>
+                                <select class="form-control" id="inputGroupSelect02">
+                                    <option value="" disabled selected>Select type</option>
+                                    <option value="1">With Food</option>
+                                    <option value="2">Without Food</option>
+                                </select>
+                            </div>
+                        </div>
                         {{-- ? show dynamic fields --}}
                         <div id="education_fields">
                         </div>
