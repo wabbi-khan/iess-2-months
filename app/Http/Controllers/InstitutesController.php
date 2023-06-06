@@ -718,21 +718,49 @@ class InstitutesController extends Controller
         ]);
     }
 
+    // timetable
+    public function select_view_timetable(Request $request)
+    {
+        $pagename = 'select detail timetable';
+        return view(
+            'main_super_admin.dashboard.timeTable.select-view-timetable-deatil',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+    public function select_add_timetable(Request $request)
+    {
+        $pagename = 'select add timetable';
+        return view(
+            'main_super_admin.dashboard.timeTable.select-add-timetable-datail',
+            [
+                'pagename' => $pagename,
+            ]
+        );
+    }
+
     // ? hostel management
     public function hostel_manage(Request $request)
     {
         $pagename = 'timetable';
-        return view('main_super_admin.dashboard.hostel_management.hostel_manage', [
-            'pagename' => $pagename,
-        ]);
+        return view(
+            'main_super_admin.dashboard.hostel_management.hostel_manage',
+            [
+                'pagename' => $pagename,
+            ]
+        );
     }
 
     // ?  Create Hostel
     public function create_hostel(Request $request)
     {
         $pagename = 'timetable';
-        return view('main_super_admin.dashboard.hostel_management.create_hostel', [
-            'pagename' => $pagename,
-        ]);
+        return view(
+            'main_super_admin.dashboard.hostel_management.create_hostel',
+            [
+                'pagename' => $pagename,
+            ]
+        );
     }
 }

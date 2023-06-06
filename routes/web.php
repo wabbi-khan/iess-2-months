@@ -234,7 +234,7 @@ Route::get('/add-attendance', [
     'add_attendance',
 ])->name('add-attendance');
 
-// employee holiay
+// employee holiday
 Route::get('/all-holidays', [
     InstitutesController::class,
     'all_holidays',
@@ -322,6 +322,18 @@ Route::get('/add-new-timetable', [
     'add_new_timetable',
 ])->name('add-new-timetable');
 
+// select-detail-view
+Route::get('/select-view-timetable', [
+    InstitutesController::class,
+    'select_view_timetable',
+])->name('select-view-timetable');
+
+// select-detail-view
+Route::get('/select-add-timetable', [
+    InstitutesController::class,
+    'select_add_timetable',
+])->name('select-add-timetable');
+
 // ? Teacher Screens
 Route::get('/teacher-screen', [
     InstitutesController::class,
@@ -363,7 +375,13 @@ Route::get('/timetable', [InstitutesController::class, 'timetable'])->name(
 Route::get('/events', [InstitutesController::class, 'events'])->name('events');
 
 // ? Hostel management
-Route::get('/hostel-manage', [InstitutesController::class, 'hostel_manage'])->name('hostel-manage');
+Route::get('/hostel-manage', [
+    InstitutesController::class,
+    'hostel_manage',
+])->name('hostel-manage');
 
 // ? create Hostel
-Route::get('/create-hostel', [InstitutesController::class, 'create_hostel'])->name('create-hostel');
+Route::get('/create-hostel', [
+    InstitutesController::class,
+    'create_hostel',
+])->name('create-hostel');
