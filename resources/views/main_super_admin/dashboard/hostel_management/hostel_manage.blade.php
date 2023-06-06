@@ -35,9 +35,42 @@
                         <a href="{{ route('create-hostel') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/new addmission-01.png" alt="">
+                                    <img src="assets/hostel/create-hostel.png" alt="">
                                 </div>
                                 <h5>Create Hostel</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('all-hostel') }}">
+
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/hostel/all-hostel.png" alt="">
+                                </div>
+                                <h5>All Hostel</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('reserve-room') }}">
+
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/hostel/reserve-room.png" alt="">
+                                </div>
+                                <h5>Reserve Room</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('book-room') }}">
+
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/hostel/book-room.png" alt="">
+                                </div>
+                                <h5>Book Room</h5>
                             </div>
                         </a>
                     </div>
@@ -46,9 +79,9 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/attendance-01.png" alt="">
+                                    <img src="assets/hostel/inventory.png" alt="">
                                 </div>
-                                <h5>Reserve Room</h5>
+                                <h5>Hostel Inventory</h5>
                             </div>
                         </a>
                     </div>

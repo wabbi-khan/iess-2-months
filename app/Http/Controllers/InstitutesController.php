@@ -735,4 +735,32 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+
+
+    // ?  All Hostels
+    public function all_hostel(Request $request)
+    {
+        $pagename = 'timetable';
+        return view('main_super_admin.dashboard.hostel_management.all_hostel', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ?  reserve room
+    public function reserve_room(Request $request)
+    {
+        $pagename = 'timetable';
+        return view('main_super_admin.dashboard.hostel_management.reserve_room', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ?  Book room
+    public function book_room(Request $request)
+    {
+        $pagename = 'timetable';
+        return view('main_super_admin.dashboard.hostel_management.book_room', [
+            'pagename' => $pagename,
+        ]);
+    }
 }

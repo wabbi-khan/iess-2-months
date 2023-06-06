@@ -367,3 +367,12 @@ Route::get('/hostel-manage', [InstitutesController::class, 'hostel_manage'])->na
 
 // ? create Hostel
 Route::get('/create-hostel', [InstitutesController::class, 'create_hostel'])->name('create-hostel');
+
+// ? All Hostels
+Route::get('/all-hostel', [InstitutesController::class, 'all_hostel'])->name('all-hostel');
+
+// ? reserve room
+Route::get('/reserve-room', [InstitutesController::class, 'reserve_room'])->name('reserve-room');
+
+// ? book room
+Route::get('/book-room', [InstitutesController::class, 'book_room'])->name('book-room');
