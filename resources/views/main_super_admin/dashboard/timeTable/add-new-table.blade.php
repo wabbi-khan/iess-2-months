@@ -27,42 +27,9 @@
             <div class="card height-auto">
                 <div class="card-body">
                    
-                    <div class="heading-layout1">
-                        <div class="item-title Add-student m-auto justify-content-center">
-                            <h3>Class Details</h3>
-                        </div>
-
-                    </div>
+                  
                     <form class="new-added-form" action="#" method="POST">
-                        <div class="row">
-                      
-
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <label>Class*</label>
-                                <select class="form-control" id="inputGroupSelect02">
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                             <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <label>Section*</label>
-                                <select class="form-control" id="inputGroupSelect02">
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-
-
-                            <div class="col-xl-4 col-lg-6 col-12 form-group">
-                                <label>Subject*</label>
-                                <input type="text" name="religion" id="religion" required
-                                    placeholder="Enter  Subject" class="form-control" />
-                            </div>
-                          
-                          
-                       </div>
+                   
 
                         <!-- Time table detail -->
                         <div class="heading-layout1">
