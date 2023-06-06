@@ -763,7 +763,6 @@ class InstitutesController extends Controller
             ]
         );
     }
-<<<<<<< HEAD
 
 
     // ?  All Hostels
@@ -792,6 +791,4 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
-=======
->>>>>>> 7b9cede1d4c56cae59de4ccb70290778ed0bedc1
 }

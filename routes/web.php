@@ -381,7 +381,6 @@ Route::get('/hostel-manage', [
 ])->name('hostel-manage');
 
 // ? create Hostel
-<<<<<<< HEAD
 Route::get('/create-hostel', [InstitutesController::class, 'create_hostel'])->name('create-hostel');
 
 // ? All Hostels
@@ -392,9 +391,8 @@ Route::get('/reserve-room', [InstitutesController::class, 'reserve_room'])->name
 
 // ? book room
 Route::get('/book-room', [InstitutesController::class, 'book_room'])->name('book-room');
-=======
+
 Route::get('/create-hostel', [
     InstitutesController::class,
     'create_hostel',
 ])->name('create-hostel');
->>>>>>> 7b9cede1d4c56cae59de4ccb70290778ed0bedc1
