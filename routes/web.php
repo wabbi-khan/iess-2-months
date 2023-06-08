@@ -392,7 +392,9 @@ Route::get('/reserve-room', [InstitutesController::class, 'reserve_room'])->name
 // ? book room
 Route::get('/book-room', [InstitutesController::class, 'book_room'])->name('book-room');
 
-Route::get('/create-hostel', [
+
+// ? Student Screens
+Route::get('/student-screens', [
     InstitutesController::class,
-    'create_hostel',
-])->name('create-hostel');
+    'student_screens',
+])->name('student-screens');

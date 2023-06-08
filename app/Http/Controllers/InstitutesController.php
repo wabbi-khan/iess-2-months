@@ -791,4 +791,12 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // ?  student-screens
+    public function student_screens(Request $request)
+    {
+        $pagename = 'timetable';
+        return view('main_super_admin.dashboard.student_screens.student_screens', [
+            'pagename' => $pagename,
+        ]);
+    }
 }
