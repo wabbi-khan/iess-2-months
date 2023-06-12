@@ -37,7 +37,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/attendance-01.png" alt="">
+                                    <img src="assets/student/update-profile.png" alt="student-screens-img">
                                 </div>
                                 <h5>Update Profile</h5>
                             </div>
@@ -47,7 +47,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/result-01.png" alt="">
+                                    <img src="assets/student/courses.png" alt="student-screens-img">
                                 </div>
                                 <h5>My Subjects</h5>
                             </div>
@@ -58,7 +58,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/subject-01.png" alt="">
+                                    <img src="assets/student/class-schedule.png" alt="student-screens-img">
                                 </div>
                                 <h5>Class Schedule</h5>
                             </div>
@@ -68,7 +68,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/promote student.png" alt="">
+                                    <img src="assets/student/result.png" alt="student-screens-img">
                                 </div>
                                 <h5>Result</h5>
                             </div>
@@ -78,7 +78,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/subject-01.png" alt="">
+                                    <img src="assets/student/exams.png" alt="student-screens-img">
                                 </div>
                                 <h5>Exams</h5>
                             </div>
@@ -88,7 +88,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/subject-01.png" alt="">
+                                    <img src="assets/student/attendance.png" alt="student-screens-img">
                                 </div>
                                 <h5>Attendance</h5>
                             </div>
@@ -98,7 +98,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/subject-01.png" alt="">
+                                    <img src="assets/student/library.png" alt="student-screens-img">
                                 </div>
                                 <h5>Library</h5>
                             </div>
@@ -109,7 +109,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/former 01.png" alt="">
+                                    <img src="assets/student/fees.png" alt="student-screens-img">
                                 </div>
                                 <h5>Fees</h5>
                             </div>
@@ -120,7 +120,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/time table-01.png" alt="">
+                                    <img src="assets/student/assignment.png" alt="student-screens-img">
                                 </div>
                                 <h5>Assignments</h5>
                             </div>
@@ -131,7 +131,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/syllabus-01.png" alt="">
+                                    <img src="assets/student/lms.png" alt="student-screens-img">
                                 </div>
                                 <h5>LMS</h5>
                             </div>
@@ -141,7 +141,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/class-01.png" alt="">
+                                    <img src="assets/student/book-room.png" alt="student-screens-img">
                                 </div>
                                 <h5>Book Hostel Room</h5>
                             </div>
@@ -151,7 +151,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/subject-01.png" alt="">
+                                    <img src="assets/student/notice-board.png" alt="student-screens-img">
                                 </div>
                                 <h5>Notice Board</h5>
                             </div>
@@ -163,7 +163,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/subject-01.png" alt="">
+                                    <img src="assets/student/complaint.png" alt="student-screens-img">
                                 </div>
                                 <h5>Complaint</h5>
                             </div>

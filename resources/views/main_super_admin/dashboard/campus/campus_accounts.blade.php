@@ -116,33 +116,33 @@
                 <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                     <a href="{{ route('all-inventory') }}">
 
-                    <div class="box-main-card">
-                        <div class="card-content">
-                            <img src="assets/accounts/inventory.png" alt="">
+                        <div class="box-main-card">
+                            <div class="card-content">
+                                <img src="assets/accounts/inventory.png" alt="">
+                            </div>
+                            <h5>All Inventory</h5>
                         </div>
-                        <h5>All Inventory</h5>
-                    </div>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                     <a href="{{ route('add-inventory') }}">
 
-                    <div class="box-main-card">
-                        <div class="card-content">
-                            <img src="assets/accounts/new item.png" alt="">
+                        <div class="box-main-card">
+                            <div class="card-content">
+                                <img src="assets/accounts/new item.png" alt="">
+                            </div>
+                            <h5>Add New Item</h5>
                         </div>
-                        <h5>Add New Item</h5>
-                    </div>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                     <a href="{{ route('billing') }}">
-                    <div class="box-main-card">
-                        <div class="card-content">
-                            <img src="assets/accounts/billing.png" alt="">
+                        <div class="box-main-card">
+                            <div class="card-content">
+                                <img src="assets/accounts/billing.png" alt="">
+                            </div>
+                            <h5>Billings</h5>
                         </div>
-                        <h5>Billings</h5>
-                    </div>
                     </a>
                 </div>
 
