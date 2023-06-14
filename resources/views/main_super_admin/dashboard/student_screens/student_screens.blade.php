@@ -44,12 +44,12 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('my-courses') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/courses.png" alt="student-screens-img">
                                 </div>
-                                <h5>My Subjects</h5>
+                                <h5>My Courses</h5>
                             </div>
                         </a>
                     </div>

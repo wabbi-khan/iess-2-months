@@ -398,3 +398,9 @@ Route::get('/student-screens', [
     InstitutesController::class,
     'student_screens',
 ])->name('student-screens');
+
+// ? my courses
+Route::get('/my-courses', [
+    InstitutesController::class,
+    'my_courses',
+])->name('my-courses');

@@ -154,7 +154,7 @@ class InstitutesController extends Controller
     // add new Students
     public function add_Student(Request $request)
     {
-        $pagename = 'New Student';
+        $pagename = 'Add New Student';
         return view('main_super_admin.dashboard.admissions.new-admission', [
             'pagename' => $pagename,
         ]);
@@ -183,7 +183,7 @@ class InstitutesController extends Controller
     // ? add classes
     public function all_classes(Request $request)
     {
-        $pagename = 'View Classes';
+        $pagename = 'View All Classes';
         return view('main_super_admin.dashboard.classes.all_classes', [
             'pagename' => $pagename,
         ]);
@@ -191,7 +191,7 @@ class InstitutesController extends Controller
 
     public function add_class(Request $request)
     {
-        $pagename = 'Add Class';
+        $pagename = 'Add New Class';
         return view('main_super_admin.dashboard.classes.add_class', [
             'pagename' => $pagename,
         ]);
@@ -294,7 +294,7 @@ class InstitutesController extends Controller
     // ? View Result
     public function view_result(Request $request)
     {
-        $pagename = 'Add Syllabus';
+        $pagename = 'View Result';
         return view('main_super_admin.dashboard.result.view_result', [
             'pagename' => $pagename,
         ]);
@@ -302,7 +302,7 @@ class InstitutesController extends Controller
     }
     public function view_timeTable(Request $request)
     {
-        $pagename = 'Add Syllabus';
+        $pagename = 'View Timetable';
         return view('main_super_admin.dashboard.timeTable.view_timeTable', [
             'pagename' => $pagename,
         ]);
@@ -321,7 +321,7 @@ class InstitutesController extends Controller
     }
     public function add_new_category(Request $request)
     {
-        $pagename = 'Digital Library';
+        $pagename = 'Add New Category';
         return view(
             'main_super_admin.dashboard.digital-library.addNew_category',
             [
@@ -366,7 +366,7 @@ class InstitutesController extends Controller
     }
     public function returned_book(Request $request)
     {
-        $pagename = 'Returned-book';
+        $pagename = 'Returned Book';
         return view(
             'main_super_admin.dashboard.digital-library.returned-book',
             [
@@ -398,7 +398,7 @@ class InstitutesController extends Controller
 
     public function supplier_profile(Request $request)
     {
-        $pagename = 'supplier_profile';
+        $pagename = 'supplier Profile';
         return view(
             'main_super_admin.dashboard.digital-library.supplier-profile',
             [
@@ -409,7 +409,7 @@ class InstitutesController extends Controller
 
     public function add_new_supplier(Request $request)
     {
-        $pagename = 'Add Supplier';
+        $pagename = 'Add New Supplier';
         return view(
             'main_super_admin.dashboard.digital-library.add-new-supplier',
             [
@@ -426,6 +426,7 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+
     public function add_employees(Request $request)
     {
         $pagename = 'Add Employees';
@@ -471,14 +472,14 @@ class InstitutesController extends Controller
     // ? Employee leave
     public function employee_leave(Request $request)
     {
-        $pagename = 'Employees Attendance';
+        $pagename = 'Employees Leave';
         return view('main_super_admin.dashboard.hr_screens.employee_leave', [
             'pagename' => $pagename,
         ]);
     }
     public function add_employee_leave(Request $request)
     {
-        $pagename = 'Employees Attendance';
+        $pagename = 'Add Employees Leave';
         return view(
             'main_super_admin.dashboard.hr_screens.add_employee_leave',
             [
@@ -627,7 +628,7 @@ class InstitutesController extends Controller
     // ? print challan
     public function print_challan(Request $request)
     {
-        $pagename = 'billing';
+        $pagename = 'Print Challan';
         return view(
             'main_super_admin.dashboard.account-screens.fees_manage.print_challan',
             [
@@ -639,7 +640,7 @@ class InstitutesController extends Controller
     // ? Teacher screen
     public function teacher_screen(Request $request)
     {
-        $pagename = 'billing';
+        $pagename = 'Teacher Screen';
         return view(
             'main_super_admin.dashboard.teacher_screens.teacher_screen',
             [
@@ -651,7 +652,7 @@ class InstitutesController extends Controller
     // ? all_student_attendance_mark
     public function all_student_attendance_mark(Request $request)
     {
-        $pagename = 'billing';
+        $pagename = 'All Students Attendance Mark';
         return view(
             'main_super_admin.dashboard.teacher_screens.allStudentAttendance',
             [
@@ -663,7 +664,7 @@ class InstitutesController extends Controller
     // ? result screen on teacher
     public function teacher_result(Request $request)
     {
-        $pagename = 'billing';
+        $pagename = 'Teacher Result';
         return view('main_super_admin.dashboard.teacher_screens.result', [
             'pagename' => $pagename,
         ]);
@@ -671,7 +672,7 @@ class InstitutesController extends Controller
     // ? recorded screen on teacher
     public function recorded_lectures(Request $request)
     {
-        $pagename = 'recorded_lectures';
+        $pagename = 'recorded lectures';
         return view(
             'main_super_admin.dashboard.teacher_screens.recorded-lectures',
             [
@@ -693,7 +694,7 @@ class InstitutesController extends Controller
     // course material
     public function course_material(Request $request)
     {
-        $pagename = 'diary';
+        $pagename = 'course material';
         return view(
             'main_super_admin.dashboard.teacher_screens.course-material',
             [
@@ -721,7 +722,7 @@ class InstitutesController extends Controller
     // timetable
     public function select_view_timetable(Request $request)
     {
-        $pagename = 'select detail timetable';
+        $pagename = 'select view timetable';
         return view(
             'main_super_admin.dashboard.timeTable.select-view-timetable-deatil',
             [
@@ -743,7 +744,7 @@ class InstitutesController extends Controller
     // ? hostel management
     public function hostel_manage(Request $request)
     {
-        $pagename = 'timetable';
+        $pagename = 'Hotstel Management';
         return view(
             'main_super_admin.dashboard.hostel_management.hostel_manage',
             [
@@ -755,7 +756,7 @@ class InstitutesController extends Controller
     // ?  Create Hostel
     public function create_hostel(Request $request)
     {
-        $pagename = 'timetable';
+        $pagename = 'Create Hostel';
         return view(
             'main_super_admin.dashboard.hostel_management.create_hostel',
             [
@@ -768,7 +769,7 @@ class InstitutesController extends Controller
     // ?  All Hostels
     public function all_hostel(Request $request)
     {
-        $pagename = 'timetable';
+        $pagename = 'All Hostel';
         return view('main_super_admin.dashboard.hostel_management.all_hostel', [
             'pagename' => $pagename,
         ]);
@@ -777,7 +778,7 @@ class InstitutesController extends Controller
     // ?  reserve room
     public function reserve_room(Request $request)
     {
-        $pagename = 'timetable';
+        $pagename = 'Reserve Room';
         return view('main_super_admin.dashboard.hostel_management.reserve_room', [
             'pagename' => $pagename,
         ]);
@@ -786,7 +787,7 @@ class InstitutesController extends Controller
     // ?  Book room
     public function book_room(Request $request)
     {
-        $pagename = 'timetable';
+        $pagename = 'Book Room';
         return view('main_super_admin.dashboard.hostel_management.book_room', [
             'pagename' => $pagename,
         ]);
@@ -794,8 +795,16 @@ class InstitutesController extends Controller
     // ?  student-screens
     public function student_screens(Request $request)
     {
-        $pagename = 'timetable';
+        $pagename = 'Student Screens';
         return view('main_super_admin.dashboard.student_screens.student_screens', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // ?  my courses
+    public function my_courses(Request $request)
+    {
+        $pagename = 'My Courses';
+        return view('main_super_admin.dashboard.student_screens.my_courses', [
             'pagename' => $pagename,
         ]);
     }
