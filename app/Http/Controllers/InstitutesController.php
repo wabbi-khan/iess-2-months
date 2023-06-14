@@ -808,4 +808,12 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // ?  Student classes schedule
+    public function classes_schedule(Request $request)
+    {
+        $pagename = 'My Courses';
+        return view('main_super_admin.dashboard.student_screens.classes_schedule', [
+            'pagename' => $pagename,
+        ]);
+    }
 }

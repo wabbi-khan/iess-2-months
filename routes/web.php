@@ -404,3 +404,9 @@ Route::get('/my-courses', [
     InstitutesController::class,
     'my_courses',
 ])->name('my-courses');
+
+// ? student classes schedule
+Route::get('/classes-schedule', [
+    InstitutesController::class,
+    'classes_schedule',
+])->name('classes-schedule');

@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('classes-schedule') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/class-schedule.png" alt="student-screens-img">
