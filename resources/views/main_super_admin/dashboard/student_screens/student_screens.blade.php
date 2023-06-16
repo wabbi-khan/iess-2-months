@@ -65,7 +65,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('student-result') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/result.png" alt="student-screens-img">

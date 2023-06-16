@@ -669,6 +669,16 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+
+    // ? give_marks
+    public function give_marks(Request $request)
+    {
+        $pagename = 'Teacher Result';
+        return view('main_super_admin.dashboard.teacher_screens.give_marks', [
+            'pagename' => $pagename,
+        ]);
+    }
+
     // ? recorded screen on teacher
     public function recorded_lectures(Request $request)
     {
@@ -813,6 +823,15 @@ class InstitutesController extends Controller
     {
         $pagename = 'My Courses';
         return view('main_super_admin.dashboard.student_screens.classes_schedule', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ? Student result
+    public function student_result(Request $request)
+    {
+        $pagename = 'My Courses';
+        return view('main_super_admin.dashboard.student_screens.student_result', [
             'pagename' => $pagename,
         ]);
     }

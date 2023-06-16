@@ -352,6 +352,11 @@ Route::get('/teacher-result', [
     'teacher_result',
 ])->name('teacher-result');
 
+// ? give_marks
+Route::get('/give-marks', [
+    InstitutesController::class,
+    'give_marks',
+])->name('give-marks');
 // recorded-lectures
 Route::get('/recorded-lectures', [
     InstitutesController::class,
@@ -410,3 +415,9 @@ Route::get('/classes-schedule', [
     InstitutesController::class,
     'classes_schedule',
 ])->name('classes-schedule');
+
+// ? Student result
+Route::get('/student-result', [
+    InstitutesController::class,
+    'student_result',
+])->name('student-result');

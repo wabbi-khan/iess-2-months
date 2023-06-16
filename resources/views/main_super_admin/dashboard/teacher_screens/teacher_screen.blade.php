@@ -50,6 +50,16 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('give-marks') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/teacher/result3-01.png" alt="">
+                                </div>
+                                <h5>Give Marks</h5>
+                            </div>
+                        </a>
+                    </div>
 
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
                         <a href="{{ route('recorded-lectures') }}">
