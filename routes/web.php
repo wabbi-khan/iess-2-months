@@ -421,3 +421,46 @@ Route::get('/student-result', [
     InstitutesController::class,
     'student_result',
 ])->name('student-result');
+
+// ? Student Exams
+Route::get('/student-exams', [
+    InstitutesController::class,
+    'student_exams',
+])->name('student-exams');
+
+// ?  student Attendance
+Route::get('/student-attendance', [
+    InstitutesController::class,
+    'student_attendance',
+])->name('student-attendance');
+
+// ?  student Library
+Route::get('/student-library', [
+    InstitutesController::class,
+    'student_library',
+])->name('student-library');
+
+
+// ? Affaque work
+Route::get('/core-finance', [
+    InstitutesController::class,
+    'core_finance',
+])->name('core-finances');
+
+// ? budget manage
+Route::get('/budget-manage', [
+    InstitutesController::class,
+    'budget_manage',
+])->name('budget-manage');
+
+// ? procurement
+Route::get('/procurement', [
+    InstitutesController::class,
+    'procurement',
+])->name('procurement');
+
+// ? inventory
+Route::get('/inventory', [
+    InstitutesController::class,
+    'inventory',
+])->name('inventory');

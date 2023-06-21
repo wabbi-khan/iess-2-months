@@ -821,7 +821,7 @@ class InstitutesController extends Controller
     // ?  Student classes schedule
     public function classes_schedule(Request $request)
     {
-        $pagename = 'My Courses';
+        $pagename = 'Student classes schedule';
         return view('main_super_admin.dashboard.student_screens.classes_schedule', [
             'pagename' => $pagename,
         ]);
@@ -830,8 +830,68 @@ class InstitutesController extends Controller
     // ? Student result
     public function student_result(Request $request)
     {
-        $pagename = 'My Courses';
+        $pagename = 'Student result';
         return view('main_super_admin.dashboard.student_screens.student_result', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ? Student Exams
+    public function student_exams(Request $request)
+    {
+        $pagename = 'Student Exams';
+        return view('main_super_admin.dashboard.student_screens.student_exams', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ? Student Attendance
+    public function student_attendance(Request $request)
+    {
+        $pagename = 'Student Attendance';
+        return view('main_super_admin.dashboard.student_screens.student_attendance', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ? Student Attendance
+    public function student_library(Request $request)
+    {
+        $pagename = 'Student Attendance';
+        return view('main_super_admin.dashboard.student_screens.student_library', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ? Affaque work
+    public function core_finance(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.core_finance', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // ? budget_manage
+    public function budget_manage(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.budget_manage', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // ? procurement
+    public function procurement(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.procurement', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // ? Inventory
+    public function inventory(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.inventory', [
             'pagename' => $pagename,
         ]);
     }

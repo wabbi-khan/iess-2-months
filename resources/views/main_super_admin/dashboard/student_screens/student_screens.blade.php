@@ -75,7 +75,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('student-exams') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/exams.png" alt="student-screens-img">
@@ -85,7 +85,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('student-attendance') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/attendance.png" alt="student-screens-img">
@@ -95,7 +95,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('student-library') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/library.png" alt="student-screens-img">
