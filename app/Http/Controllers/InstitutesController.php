@@ -895,4 +895,36 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+
+    // ? fleet_manage
+    public function fleet_manage(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.fleet_manage', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ? human & payroll
+    public function human_payroll(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.human-payroll', [
+            'pagename' => $pagename,
+        ]);
+    }
+    public function Admission1(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.admission', [
+            'pagename' => $pagename,
+        ]);
+    }
+    public function student2(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.student', [
+            'pagename' => $pagename,
+        ]);
+    }
 }

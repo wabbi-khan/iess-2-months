@@ -464,3 +464,26 @@ Route::get('/inventory', [
     InstitutesController::class,
     'inventory',
 ])->name('inventory');
+
+
+// ? Fleet Management
+Route::get('/fleet-manage', [
+    InstitutesController::class,
+    'fleet_manage',
+])->name('fleet-manage');
+
+// ? human payroll
+Route::get('/human-payroll', [
+    InstitutesController::class,
+    'human_payroll',
+])->name('human-payroll');
+
+// ? Addmission 1
+Route::get('/Admission1', [InstitutesController::class, 'Admission1'])->name(
+    'Admission1'
+);
+
+// ? Student2
+Route::get('/student2', [InstitutesController::class, 'student2'])->name(
+    'student2'
+);
