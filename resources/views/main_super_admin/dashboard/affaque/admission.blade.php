@@ -37,9 +37,10 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Vendor Invoice.png" alt="student-screens-img">
+                                    <img src="assets/affaque/online application for student addimission-01.png"
+                                        alt="student-screens-img">
                                 </div>
-                                <h5>online Applications</h5>
+                                <h5>Online Applications</h5>
                             </div>
                         </a>
                     </div>
@@ -48,9 +49,20 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Vendor Invoice.png" alt="student-screens-img">
+                                    <img src="assets/affaque/class schedule-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Admission schedule</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="#">
+
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/affaque/update-profile.png" alt="student-screens-img">
+                                </div>
+                                <h5>Add New Student</h5>
                             </div>
                         </a>
                     </div>

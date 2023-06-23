@@ -854,7 +854,7 @@ class InstitutesController extends Controller
         ]);
     }
 
-    // ? Student Attendance
+    // ? Student Library
     public function student_library(Request $request)
     {
         $pagename = 'Student Attendance';
@@ -913,6 +913,7 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // ? Admission
     public function Admission1(Request $request)
     {
         $pagename = '';
@@ -920,10 +921,21 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+
+    // ?student information system
     public function student2(Request $request)
     {
         $pagename = '';
         return view('main_super_admin.dashboard.affaque.student', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ?student information system
+    public function fees(Request $request)
+    {
+        $pagename = '';
+        return view('main_super_admin.dashboard.affaque.fees', [
             'pagename' => $pagename,
         ]);
     }

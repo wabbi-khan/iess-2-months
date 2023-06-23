@@ -37,7 +37,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Vendor Invoice.png" alt="student-screens-img">
+                                    <img src="assets/affaque/employee details-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Employee Details</h5>
                             </div>
@@ -47,7 +47,7 @@
                         <a href="{{ route('my-courses') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Monitor Expenditure.png" alt="student-screens-img">
+                                    <img src="assets/affaque/employee attendance-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Employee Attendance</h5>
                             </div>
@@ -58,7 +58,7 @@
                         <a href="{{ route('classes-schedule') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Budget Request.png" alt="student-screens-img">
+                                    <img src="assets/affaque/payroll processing-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Payroll Processing</h5>
                             </div>
@@ -68,7 +68,7 @@
                         <a href="{{ route('student-result') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Budget Report.png" alt="student-screens-img">
+                                    <img src="assets/affaque/employee loan-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Employee Loan</h5>
                             </div>
@@ -78,29 +78,13 @@
                         <a href="{{ route('student-result') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Budget Report.png" alt="student-screens-img">
+                                    <img src="assets/affaque/employee recruitment-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Employee recruitment</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('student-result') }}">
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/affaque/Budget Report.png" alt="student-screens-img">
-                                </div>
-                                <h5>Employee Loan</h5>
-                            </div>
-                        </a>
-                    </div>
-
-
-
-
                 </div>
-
-
             </div>
             <br>
             {{-- <div class="text-center">

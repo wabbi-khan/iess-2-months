@@ -29,7 +29,7 @@
             <!-- Admit Form Area Start Here -->
 
             <div class="container payroll-heading">
-                <h3 class="text-center">Students</h3>
+                <h3 class="text-center">Student Information System</h3>
                 <div class="row d-flex justify-content-center">
 
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
@@ -37,7 +37,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Vendor Invoice.png" alt="student-screens-img">
+                                    <img src="assets/affaque/student information-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Student Information</h5>
                             </div>
@@ -48,7 +48,7 @@
 
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Vendor Invoice.png" alt="student-screens-img">
+                                    <img src="assets/affaque/class schedule-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Class schedule</h5>
                             </div>
@@ -59,20 +59,9 @@
                         <a href="{{ route('my-courses') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Monitor Expenditure.png" alt="student-screens-img">
+                                    <img src="assets/affaque/result3.png" alt="student-screens-img">
                                 </div>
-                                <h5>Results </h5>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('student-result') }}">
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/affaque/Budget Report.png" alt="student-screens-img">
-                                </div>
-                                <h5>Communication</h5>
+                                <h5>Student Results</h5>
                             </div>
                         </a>
                     </div>
@@ -80,9 +69,19 @@
                         <a href="{{ route('student-result') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Budget Report.png" alt="student-screens-img">
+                                    <img src="assets/affaque/student attendance.png" alt="student-screens-img">
                                 </div>
                                 <h5>Student Attendance</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('student-result') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/affaque/all_books_icon-01.png" alt="student-screens-img">
+                                </div>
+                                <h5>Student Courses</h5>
                             </div>
                         </a>
                     </div>

@@ -36,7 +36,7 @@
                         <a href="#">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/General ledger-01.png" alt="student-screens-img">
+                                    <img src="assets/affaque/Create Item Category-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Create Item Category</h5>
                             </div>
@@ -46,7 +46,7 @@
                         <a href="{{ route('my-courses') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Vendor Invoice.png" alt="student-screens-img">
+                                    <img src="assets/affaque/add inventory-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Add Inventory</h5>
                             </div>
@@ -56,7 +56,7 @@
                         <a href="{{ route('my-courses') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Vendor Invoice.png" alt="student-screens-img">
+                                    <img src="assets/affaque/all inventory-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>All Inventory</h5>
                             </div>
@@ -67,7 +67,7 @@
                         <a href="{{ route('classes-schedule') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Cash Management.png" alt="student-screens-img">
+                                    <img src="assets/affaque/Inventory Usage-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Inventory Usage</h5>
                             </div>
@@ -77,7 +77,7 @@
                         <a href="{{ route('student-result') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Financial Report.png" alt="student-screens-img">
+                                    <img src="assets/affaque/item tracking-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Item Tracking</h5>
                             </div>
@@ -87,7 +87,7 @@
                         <a href="{{ route('student-result') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/Financial Report.png" alt="student-screens-img">
+                                    <img src="assets/affaque/inventory report-01.png" alt="student-screens-img">
                                 </div>
                                 <h5>Inventory Report</h5>
                             </div>

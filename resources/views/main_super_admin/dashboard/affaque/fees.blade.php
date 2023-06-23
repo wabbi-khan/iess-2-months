@@ -1,7 +1,5 @@
 @include('main_super_admin.dashboard.include.header')
-<style>
 
-</style>
 <!-- Preloader Start Here -->
 <div id="preloader"></div>
 <!-- Preloader End Here -->
@@ -17,94 +15,82 @@
         <div class="dashboard-content-one">
             <!-- Breadcubs Area Start Here -->
             <div class="breadcrumbs-area">
-                {{-- <h3 class="text-center">"Campus Name"</h3> --}}
+                <h3 class="text-center">"Campus Name"</h3>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>Fleet</li>
+                    <li>Accounts</li>
                 </ul>
             </div>
             <!-- Breadcubs Area End Here -->
             <!-- Admit Form Area Start Here -->
 
+
             <div class="container payroll-heading">
-                <h3 class="text-center">Fleet Management</h3>
+                <h3 class="text-center">Fees Management</h3>
                 <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('student-fees') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/accounts/fees.png" alt="">
+                                </div>
+                                <h5>Generate Fees</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('student-challan') }}">
+                            <div class="box-main-card">
+                                <div class="card-content">
+                                    <img src="assets/accounts/challans.png" alt="">
+                                </div>
+                                <h5>Challans</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                        <a href="{{ route('confirm-fees') }}">
 
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
-
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/vehicles information-01.png" alt="student-screens-img">
+                                    <img src="assets/accounts/fees confirm.png" alt="">
                                 </div>
-                                <h5>Vehicles Informatiom</h5>
+                                <h5>Confirm Fees</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('my-courses') }}">
+                        <a href="{{ route('fees-record') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/add vehicles-01.png" alt="student-screens-img">
+                                    <img src="assets/accounts/fees record.png" alt="">
                                 </div>
-                                <h5>Add New Vehicle</h5>
+                                <h5>Fees Record</h5>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('my-courses') }}">
+                        <a href="{{ route('fees-record') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
-                                    <img src="assets/affaque/vehicle maintenance-01.png" alt="student-screens-img">
+                                    <img src="assets/affaque/attendance-01.png" alt="">
                                 </div>
-                                <h5>Vehicle Maintenance</h5>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('classes-schedule') }}">
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/affaque/driver details-01.png" alt="student-screens-img">
-                                </div>
-                                <h5>Driver Detail</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('student-result') }}">
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/affaque/add new driver-01.png" alt="student-screens-img">
-                                </div>
-                                <h5>Add New Driver</h5>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="{{ route('student-result') }}">
-                            <div class="box-main-card">
-                                <div class="card-content">
-                                    <img src="assets/affaque/fleet report-01.png" alt="student-screens-img">
-                                </div>
-                                <h5>Fleet Report</h5>
+                                <h5>Scholarships</h5>
                             </div>
                         </a>
                     </div>
                 </div>
+
+
+
             </div>
-            <br>
-            {{-- <div class="text-center">
-                @include('main_super_admin.dashboard.include.poweredby')
-
-            </div> --}}
-
-
         </div>
+
+
     </div>
-    <!-- Page Area End Here -->
+</div>
+<!-- Page Area End Here -->
 </div>
 @include('main_super_admin.dashboard.include.footer')

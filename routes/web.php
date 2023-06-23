@@ -487,3 +487,7 @@ Route::get('/Admission1', [InstitutesController::class, 'Admission1'])->name(
 Route::get('/student2', [InstitutesController::class, 'student2'])->name(
     'student2'
 );
+// ? fees
+Route::get('/fees', [InstitutesController::class, 'fees'])->name(
+    'fees'
+);
