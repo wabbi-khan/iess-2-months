@@ -441,6 +441,16 @@ Route::get('/student-library', [
 ])->name('student-library');
 
 
+// ?  specific student fees
+Route::get('/stu-fees', [
+    InstitutesController::class,
+    'stu_fees',
+])->name('stu-fees');
+
+
+
+
+// * ==================================================================
 // ? Affaque work
 Route::get('/core-finance', [
     InstitutesController::class,

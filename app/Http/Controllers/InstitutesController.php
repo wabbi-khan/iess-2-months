@@ -863,6 +863,18 @@ class InstitutesController extends Controller
         ]);
     }
 
+    // ? specific Student Library
+    public function stu_fees(Request $request)
+    {
+        $pagename = 'Student Attendance';
+        return view('main_super_admin.dashboard.student_screens.specific_stu_fees', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+
+
+    // *======================================================================================
     // ? Affaque work
     public function core_finance(Request $request)
     {
