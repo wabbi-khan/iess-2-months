@@ -1,31 +1,15 @@
 @include('main_super_admin.dashboard.include.header')
 
-<!-- Preloader Start Here -->
 <div id="preloader"></div>
-<!-- Preloader End Here -->
 <div id="wrapper" class="wrapper bg-ash">
-    <!-- Header Menu Area Start Here -->
-    @include('main_super_admin.dashboard.include.navbar')
-    <!-- Header Menu Area End Here -->
-    <!-- Page Area Start Here -->
+    @include('teacher_panel.include.navbar')
+
     <div class="dashboard-page-one">
-        <!-- Sidebar Area Start Here -->
-        @include('main_super_admin.dashboard.include.side_bar')
-        <!-- Sidebar Area End Here -->
         <div class="dashboard-content-one">
-            <!-- Breadcubs Area Start Here -->
             <div class="breadcrumbs-area">
                 <h3 class="text-center"> "Campus Name" </h3>
-                <ul>
-                    <li>
-                        <a href="index.php">Home</a>
-                    </li>
-                    <li>Result Details</li>
-                </ul>
             </div>
-            <!-- Breadcubs Area End Here -->
-            <!-- Admit Form Area Start Here -->
-            <div class="card height-auto">
+            <div class="container card height-auto">
                 <div class="card-body">
 
                     <div class="heading-layout1">
@@ -182,5 +166,16 @@
 
     </div>
     <!-- Page Area End Here -->
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="powerBy">
+                @include('teacher_panel.include.poweredby')
+
+            </div>
+        </div>
+    </div>
 </div>
 @include('main_super_admin.dashboard.include.footer')

@@ -11,7 +11,7 @@
         {{-- @include('main_super_admin.dashboard.include.side_bar') --}}
         <div class="dashboard-content-one">
             <div class="breadcrumbs-area">
-                <h3 class="text-center">"Teacher Name"</h3>
+                <h3 class="text-center">"Campus Name"</h3>
             </div>
             <div class="container">
                 <div class="row d-flex justify-content-center">
@@ -104,14 +104,21 @@
                 </div>
             </div>
             <br>
-            <div class="text-center">
-                @include('teacher_panel.include.poweredby')
-
-            </div>
 
 
         </div>
     </div>
     <!-- Page Area End Here -->
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="powerBy">
+                @include('teacher_panel.include.poweredby')
+
+            </div>
+        </div>
+    </div>
 </div>
 @include('teacher_panel.include.footer')
