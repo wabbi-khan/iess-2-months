@@ -29,19 +29,7 @@
                     <li>Books</li>
                 </ul>
             </div>
-            <div class="row  d-flex justify-content-end">
 
-                <div class="col-2-xxxl col-xl-3 col-lg-3 col-12 form-group">
-                    <a href="{{ route('add-new-book') }}">
-                        <button type="submit" class="fw-btn-fill btn-gradient-yellow">
-                            Add New
-                        </button>
-                    </a>
-                </div>
-
-            </div>
-            <!-- Breadcubs Area End Here -->
-            <!-- Student Table Area Start Here -->
             <div class="card height-auto">
                 <div class="card-body">
 
