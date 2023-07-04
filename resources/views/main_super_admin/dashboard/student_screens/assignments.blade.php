@@ -1,52 +1,49 @@
 @include('main_super_admin.dashboard.include.header')
 <style>
-    .loader-container {
-        display: none;
-        justify-content: center;
-        align-items: center;
-        height: 40vh;
-    }
-
-    .loader {
-        position: relative;
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        background-color: #f3f3f3;
-        /* Light grey */
-    }
-
-    .loader-border {
-        position: absolute;
-        top: 0;
-        left: 0;
+    .progress-container {
         width: 100%;
+        height: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .progress-bar {
         height: 100%;
-        border: 16px solid transparent;
-        border-top: 16px solid #042954;
-        /* Blue */
-        border-radius: 50%;
-        transform-origin: center;
-        animation: spin 2s linear infinite;
+        background-color: #3498db;
+        width: 0;
+        transition: width 0.3s ease-in-out;
     }
 
     .percentage {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 24px;
-        color: #3498db;
+        text-align: center;
+        margin-top: 4px;
+        font-size: 14px;
+        color: #333;
     }
 
-    @keyframes spin {
-        0% {
-            transform: rotate(0deg);
-        }
+    .delete-button {
+        margin-top: 10px;
+        display: none;
+        background-color: rgb(255, 33, 33);
+        color: white;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 5px;
+        font-size: 13px;
+        cursor: pointer;
+    }
 
-        100% {
-            transform: rotate(360deg);
-        }
+    .uploadBtn {
+        background-color: #042954;
+        color: white;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 5px;
+        font-size: 13px;
+        cursor: pointer;
     }
 </style>
 
@@ -167,83 +164,110 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Upload Here </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <input type="file" id="fileInput">
-                <button onclick="uploadFile()">Upload</button>
+                <div
+                    style="width: 100%;display: flex;
+                justify-content: space-between;
+                ">
 
-                <div class="loader-container" id="loaderContainer">
-                    <div class="loader">
-                        <div class="loader-border"></div>
-                        <div class="percentage" id="loaderPercentage">0%</div>
+                    <input type="file" id="fileInput">
+                    <button class="uploadBtn" onclick="uploadFile()">Upload</button>
+                </div>
+
+                <div id="uploadContainer" style="display: none;">
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progressBar"></div>
                     </div>
+                    <div class="percentage" id="percentage">0%</div>
+                    {{-- <button class="upload-button" onclick="uploadFile()">Upload New File</button> --}}
+                    <button class="delete-button" onclick="deleteFile()">Delete File</button>
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Save</button>
             </div>
         </div>
     </div>
 </div>
 <script>
+    let file = null;
+    let xhr = null;
+
     function uploadFile() {
         const fileInput = document.getElementById('fileInput');
-        const file = fileInput.files[0];
+        file = fileInput.files[0];
 
         if (file) {
-            const xhr = new XMLHttpRequest();
             const url = 'YOUR_UPLOAD_URL'; // Replace with your actual upload URL
 
-            // Show the loader
-            const loaderContainer = document.getElementById('loaderContainer');
-            loaderContainer.style.display = 'flex';
+            const progressBar = document.getElementById('progressBar');
+            const percentageElement = document.getElementById('percentage');
+            const uploadContainer = document.getElementById('uploadContainer');
+            const deleteButton = document.querySelector('.delete-button');
 
-            const loaderBorder = document.querySelector('.loader-border');
-            const percentageElement = document.getElementById('loaderPercentage');
+            xhr = new XMLHttpRequest();
 
             xhr.open('POST', url, true);
 
             // Progress event listener
             xhr.upload.addEventListener('progress', function(e) {
-                const progress = Math.round((e.loaded / e.total) * 100);
-                updateLoader(progress);
-                updatePercentage(progress);
+                if (e.lengthComputable) {
+                    const progress = Math.round((e.loaded / e.total) * 100);
+                    progressBar.style.width = `${progress}%`;
+                    percentageElement.textContent = `${progress}%`;
+
+                    if (progress === 100) {
+                        deleteButton.style.display = 'block';
+                    }
+                }
             });
 
             // On successful upload
             xhr.addEventListener('load', function() {
                 console.log('File uploaded successfully.');
-
-                // Set loader to 100% and hide it
-                updateLoader(100);
-                loaderContainer.style.display = 'none';
+                deleteButton.style.display = 'block';
             });
 
             // On error
             xhr.addEventListener('error', function() {
                 console.log('Error occurred while uploading the file.');
-
-                // Hide the loader
-                loaderContainer.style.display = 'none';
             });
 
             xhr.send(file);
+
+            uploadContainer.style.display = 'block';
+            deleteButton.style.display = 'none';
         }
     }
 
-    function updateLoader(percentage) {
-        const loaderBorder = document.querySelector('.loader-border');
-        loaderBorder.style.transform = `rotate(${percentage / 100 * 360}deg)`;
-    }
+    function deleteFile() {
+        if (xhr) {
+            xhr.abort(); // Abort the ongoing file upload request
+            xhr = null;
+        }
 
-    function updatePercentage(percentage) {
-        const percentageElement = document.getElementById('loaderPercentage');
-        percentageElement.textContent = percentage + '%';
+        file = null;
+
+        const uploadContainer = document.getElementById('uploadContainer');
+        uploadContainer.style.display = 'none';
+
+        // Reset progress bar
+        const progressBar = document.getElementById('progressBar');
+        progressBar.style.width = '0';
+
+        // Reset percentage text
+        const percentageElement = document.getElementById('percentage');
+        percentageElement.textContent = '0%';
+
+        // Reset file input
+        const fileInput = document.getElementById('fileInput');
+        fileInput.value = '';
     }
 </script>
 @include('main_super_admin.dashboard.include.footer')
