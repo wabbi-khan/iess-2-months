@@ -642,7 +642,7 @@ class InstitutesController extends Controller
     {
         $pagename = 'Teacher Screen';
         return view(
-            'main_super_admin.dashboard.teacher_screens.teacher_screen',
+            'teacher_panel.teacher_screen',
             [
                 'pagename' => $pagename,
             ]
@@ -654,7 +654,7 @@ class InstitutesController extends Controller
     {
         $pagename = 'All Students Attendance Mark';
         return view(
-            'main_super_admin.dashboard.teacher_screens.allStudentAttendance',
+            'teacher_panel.allStudentAttendance',
             [
                 'pagename' => $pagename,
             ]
@@ -665,7 +665,7 @@ class InstitutesController extends Controller
     public function teacher_result(Request $request)
     {
         $pagename = 'Teacher Result';
-        return view('main_super_admin.dashboard.teacher_screens.result', [
+        return view('teacher_panel.result', [
             'pagename' => $pagename,
         ]);
     }
@@ -674,7 +674,7 @@ class InstitutesController extends Controller
     public function give_marks(Request $request)
     {
         $pagename = 'Teacher Result';
-        return view('main_super_admin.dashboard.teacher_screens.give_marks', [
+        return view('teacher_panel.give_marks', [
             'pagename' => $pagename,
         ]);
     }
@@ -684,7 +684,7 @@ class InstitutesController extends Controller
     {
         $pagename = 'recorded lectures';
         return view(
-            'main_super_admin.dashboard.teacher_screens.recorded-lectures',
+            'teacher_panel.recorded-lectures',
             [
                 'pagename' => $pagename,
             ]
@@ -695,7 +695,7 @@ class InstitutesController extends Controller
     {
         $pagename = 'diary';
         return view(
-            'main_super_admin.dashboard.teacher_screens.dairy-assignment',
+            'teacher_panel.dairy-assignment',
             [
                 'pagename' => $pagename,
             ]
@@ -706,7 +706,7 @@ class InstitutesController extends Controller
     {
         $pagename = 'course material';
         return view(
-            'main_super_admin.dashboard.teacher_screens.course-material',
+            'teacher_panel.course-material',
             [
                 'pagename' => $pagename,
             ]
@@ -716,7 +716,7 @@ class InstitutesController extends Controller
     public function events(Request $request)
     {
         $pagename = 'event';
-        return view('main_super_admin.dashboard.teacher_screens.events', [
+        return view('teacher_panel.events', [
             'pagename' => $pagename,
         ]);
     }
@@ -724,7 +724,7 @@ class InstitutesController extends Controller
     public function timetable(Request $request)
     {
         $pagename = 'timetable';
-        return view('main_super_admin.dashboard.teacher_screens.timetable', [
+        return view('teacher_panel.timetable', [
             'pagename' => $pagename,
         ]);
     }
@@ -868,6 +868,14 @@ class InstitutesController extends Controller
     {
         $pagename = 'Student Attendance';
         return view('main_super_admin.dashboard.student_screens.specific_stu_fees', [
+            'pagename' => $pagename,
+        ]);
+    }
+    // ? assignments for students
+    public function assignments(Request $request)
+    {
+        $pagename = 'Student Attendance';
+        return view('main_super_admin.dashboard.student_screens.assignments', [
             'pagename' => $pagename,
         ]);
     }

@@ -1,5 +1,4 @@
 @include('main_super_admin.dashboard.include.header')
-
 <!-- Preloader Start Here -->
 <div id="preloader"></div>
 <!-- Preloader End Here -->
@@ -67,14 +66,13 @@
                             </div>
                         </div>
                         <div class="row">
-
-
-                            <div class="col-xl-12 col-lg-6 col-12 form-group">
+                            <div class="col-xl-6 col-lg-6 col-12 form-group">
                                 <textarea type="textarea" class="form-control" id="diary" placeholder="Enter New Diary Note"></textarea>
                             </div>
+                            <div class="col-xl-6 col-lg-6 col-12 form-group">
 
-
-
+                                <input type="file" class="form-control" placeholder="Upload File" />
+                            </div>
                             <div class="col-12 d-flex justify-content-center  mg-t-8">
                                 <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">
                                     Submit

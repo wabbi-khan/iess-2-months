@@ -448,6 +448,13 @@ Route::get('/stu-fees', [
 ])->name('stu-fees');
 
 
+// ?  Assignment for student
+Route::get('/assignments', [
+    InstitutesController::class,
+    'assignments',
+])->name('assignments');
+
+
 
 
 // * ==================================================================

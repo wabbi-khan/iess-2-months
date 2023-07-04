@@ -6,28 +6,13 @@
 <div id="preloader"></div>
 <!-- Preloader End Here -->
 <div id="wrapper" class="wrapper bg-ash">
-    <!-- Header Menu Area Start Here -->
-    @include('main_super_admin.dashboard.include.navbar')
-    <!-- Header Menu Area End Here -->
-    <!-- Page Area Start Here -->
+    @include('teacher_panel.include.navbar')
     <div class="dashboard-page-one">
-        <!-- Sidebar Area Start Here -->
-        @include('main_super_admin.dashboard.include.side_bar')
-        <!-- Sidebar Area End Here -->
+        {{-- @include('main_super_admin.dashboard.include.side_bar') --}}
         <div class="dashboard-content-one">
-            <!-- Breadcubs Area Start Here -->
             <div class="breadcrumbs-area">
-                <h3 class="text-center">"Campus Name"</h3>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>Teacher Name</li>
-                </ul>
+                <h3 class="text-center">"Teacher Name"</h3>
             </div>
-            <!-- Breadcubs Area End Here -->
-            <!-- Admit Form Area Start Here -->
-
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-3 col-md-12 col-sm-12 text-center">
@@ -120,7 +105,7 @@
             </div>
             <br>
             <div class="text-center">
-                @include('main_super_admin.dashboard.include.poweredby')
+                @include('teacher_panel.include.poweredby')
 
             </div>
 
@@ -129,4 +114,4 @@
     </div>
     <!-- Page Area End Here -->
 </div>
-@include('main_super_admin.dashboard.include.footer')
+@include('teacher_panel.include.footer')
