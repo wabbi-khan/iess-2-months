@@ -460,6 +460,18 @@ Route::get('/stu-room', [
     'stu_room',
 ])->name('stu-room');
 
+// ?  Notice Board 
+Route::get('/notice-board', [
+    InstitutesController::class,
+    'notice_board',
+])->name('notice-board');
+
+// ?  Chat box 
+Route::get('/chat-box', [
+    InstitutesController::class,
+    'chat_box',
+])->name('chat-box');
+
 
 
 

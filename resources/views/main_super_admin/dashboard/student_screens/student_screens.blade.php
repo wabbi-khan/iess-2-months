@@ -147,7 +147,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('notice-board') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/notice-board.png" alt="student-screens-img">
@@ -159,7 +159,7 @@
 
 
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{ route('chat-box') }}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/complaint.png" alt="student-screens-img">

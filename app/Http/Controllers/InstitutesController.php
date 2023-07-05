@@ -888,6 +888,26 @@ class InstitutesController extends Controller
         ]);
     }
 
+    // ?  Notice Board 
+
+    public function notice_board(Request $request)
+    {
+        $pagename = 'Student Attendance';
+        return view('main_super_admin.dashboard.student_screens.notice_board', [
+            'pagename' => $pagename,
+        ]);
+    }
+
+    // ?  Notice Board 
+
+    public function chat_box(Request $request)
+    {
+        $pagename = 'Student Attendance';
+        return view('main_super_admin.dashboard.student_screens.chat_box', [
+            'pagename' => $pagename,
+        ]);
+    }
+
 
 
     // *======================================================================================
