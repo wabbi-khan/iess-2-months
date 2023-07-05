@@ -879,6 +879,14 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+    // ? hostel room for students
+    public function stu_room(Request $request)
+    {
+        $pagename = 'Student Attendance';
+        return view('main_super_admin.dashboard.student_screens.stu_room', [
+            'pagename' => $pagename,
+        ]);
+    }
 
 
 

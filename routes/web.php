@@ -454,6 +454,12 @@ Route::get('/assignments', [
     'assignments',
 ])->name('assignments');
 
+// ?  hostel room for student
+Route::get('/stu-room', [
+    InstitutesController::class,
+    'stu_room',
+])->name('stu-room');
+
 
 
 
