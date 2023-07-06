@@ -164,7 +164,7 @@
                                 <div class="card-content">
                                     <img src="assets/student/complaint.png" alt="student-screens-img">
                                 </div>
-                                <h5>Complaint</h5>
+                                <h5>Chat</h5>
                             </div>
                         </a>
                     </div>
