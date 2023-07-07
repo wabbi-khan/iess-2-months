@@ -806,7 +806,7 @@ class InstitutesController extends Controller
     public function student_screens(Request $request)
     {
         $pagename = 'Student Screens';
-        return view('main_super_admin.dashboard.student_screens.student_screens', [
+        return view('studen_panel.student_screens', [
             'pagename' => $pagename,
         ]);
     }
@@ -814,7 +814,7 @@ class InstitutesController extends Controller
     public function my_courses(Request $request)
     {
         $pagename = 'My Courses';
-        return view('main_super_admin.dashboard.student_screens.my_courses', [
+        return view('studen_panel.my_courses', [
             'pagename' => $pagename,
         ]);
     }
@@ -822,7 +822,7 @@ class InstitutesController extends Controller
     public function classes_schedule(Request $request)
     {
         $pagename = 'Student classes schedule';
-        return view('main_super_admin.dashboard.student_screens.classes_schedule', [
+        return view('studen_panel.classes_schedule', [
             'pagename' => $pagename,
         ]);
     }
@@ -831,7 +831,7 @@ class InstitutesController extends Controller
     public function student_result(Request $request)
     {
         $pagename = 'Student result';
-        return view('main_super_admin.dashboard.student_screens.student_result', [
+        return view('studen_panel.student_result', [
             'pagename' => $pagename,
         ]);
     }
@@ -840,7 +840,7 @@ class InstitutesController extends Controller
     public function student_exams(Request $request)
     {
         $pagename = 'Student Exams';
-        return view('main_super_admin.dashboard.student_screens.student_exams', [
+        return view('studen_panel.student_exams', [
             'pagename' => $pagename,
         ]);
     }
@@ -849,7 +849,7 @@ class InstitutesController extends Controller
     public function student_attendance(Request $request)
     {
         $pagename = 'Student Attendance';
-        return view('main_super_admin.dashboard.student_screens.student_attendance', [
+        return view('studen_panel.student_attendance', [
             'pagename' => $pagename,
         ]);
     }
@@ -858,7 +858,7 @@ class InstitutesController extends Controller
     public function student_library(Request $request)
     {
         $pagename = 'Student Attendance';
-        return view('main_super_admin.dashboard.student_screens.student_library', [
+        return view('studen_panel.student_library', [
             'pagename' => $pagename,
         ]);
     }
@@ -867,7 +867,7 @@ class InstitutesController extends Controller
     public function stu_fees(Request $request)
     {
         $pagename = 'Student Attendance';
-        return view('main_super_admin.dashboard.student_screens.specific_stu_fees', [
+        return view('studen_panel.specific_stu_fees', [
             'pagename' => $pagename,
         ]);
     }
@@ -875,7 +875,7 @@ class InstitutesController extends Controller
     public function assignments(Request $request)
     {
         $pagename = 'Student Attendance';
-        return view('main_super_admin.dashboard.student_screens.assignments', [
+        return view('studen_panel.assignments', [
             'pagename' => $pagename,
         ]);
     }
@@ -883,7 +883,7 @@ class InstitutesController extends Controller
     public function stu_room(Request $request)
     {
         $pagename = 'Student Attendance';
-        return view('main_super_admin.dashboard.student_screens.stu_room', [
+        return view('studen_panel.stu_room', [
             'pagename' => $pagename,
         ]);
     }
@@ -893,17 +893,17 @@ class InstitutesController extends Controller
     public function notice_board(Request $request)
     {
         $pagename = 'Student Attendance';
-        return view('main_super_admin.dashboard.student_screens.notice_board', [
+        return view('studen_panel.notice_board', [
             'pagename' => $pagename,
         ]);
     }
 
-    // ?  Notice Board 
+    // ?  Chat box 
 
     public function chat_box(Request $request)
     {
         $pagename = 'Student Attendance';
-        return view('main_super_admin.dashboard.student_screens.chat_box', [
+        return view('studen_panel.chat_box', [
             'pagename' => $pagename,
         ]);
     }
