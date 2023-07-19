@@ -10,7 +10,7 @@
             <div class="container payroll-heading">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-4 col-md-12 col-sm-12 text-center">
-                        <a href="#">
+                        <a href="{{route('update-profile')}}">
                             <div class="box-main-card">
                                 <div class="card-content">
                                     <img src="assets/student/update-profile.png" alt="student-screens-img">

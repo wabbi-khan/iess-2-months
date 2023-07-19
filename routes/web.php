@@ -404,6 +404,13 @@ Route::get('/student-screens', [
     'student_screens',
 ])->name('student-screens');
 
+// ?  Student update profile 
+Route::get('/update-profile', [
+    InstitutesController::class,
+    'update_profile',
+])->name('update-profile');
+
+
 // ? my courses
 Route::get('/my-courses', [
     InstitutesController::class,

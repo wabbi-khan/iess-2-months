@@ -810,6 +810,15 @@ class InstitutesController extends Controller
             'pagename' => $pagename,
         ]);
     }
+
+     // ?  update_profile
+     public function update_profile(Request $request)
+     {
+         $pagename = 'Student Screens';
+         return view('studen_panel.update_profile', [
+             'pagename' => $pagename,
+         ]);
+     }
     // ?  my courses
     public function my_courses(Request $request)
     {
