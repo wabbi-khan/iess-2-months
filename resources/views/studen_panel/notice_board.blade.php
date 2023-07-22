@@ -8,47 +8,53 @@
                 <h3 class="text-center"> "Campus Name" </h3>
             </div>
             <div class="container card height-auto">
-                <div class="card-body">
-                    <div class="heading-layout1">
-                        <div class="item-title">
-                            <h3>Notice Board</h3>
+                <div class="topBg">
+                        <div class="news">
+                            News & Events
+                        </div>
+                        <div>
+                        <i class="fa fa-angle-left px-2" aria-hidden="true"></i> Back
                         </div>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table display data-table text-nowrap">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input checkAll" />
-                                            <label class="form-check-label">ID</label>
-                                        </div>
-                                    </th>
-                                    <th>Event Name</th>
-                                    <th>Date</th>
-                                    <th>Summary</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        #12
-                                    </td>
-                                    <td>
-                                        Eid
-                                    </td>
-                                    <td>
-                                        2/2/2023
-                                    </td>
-                                    <td>
-                                        abc
-                                    </td>
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row mt-3">
 
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                                <div class="events">
+                                    <div class="date">
+                                        22-july <br>
+                                        2023
+                                    </div>
+                                    <div class="desc">
+                                       <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit porro debitis ea repudiandae, eligendi obcaecati repellendus nisi aspernatur ducimus maxime maiores ab corporis voluptatem, delectus aliquam error praesentium iure expedita?</div>
+                                       <div class="time_link">
+    
+                                           <div class="time">02:03</div>
+                                           <div class="link">link</div>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div><div class="row mt-3">
+
+                                <div class="events">
+                                    <div class="date">
+                                        22-july <br>
+                                        2023
+                                    </div>
+                                    <div class="desc">
+                                       <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit porro debitis ea repudiandae, eligendi obcaecati repellendus nisi aspernatur ducimus maxime maiores ab corporis voluptatem, delectus aliquam error praesentium iure expedita?</div>
+                                       <div class="time_link">
+    
+                                           <div class="time">02:03</div>
+                                           <div class="link">link</div>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
             </div>
         </div>
     </div>
