@@ -35,7 +35,7 @@
     
                                     </div>
                                 </div>
-                            </div><div class="row mt-3">
+                                 </div><div class="row mt-3">
 
                                 <div class="events">
                                     <div class="date">
@@ -43,7 +43,7 @@
                                         2023
                                     </div>
                                     <div class="desc">
-                                       <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit porro debitis ea repudiandae, eligendi obcaecati repellendus nisi aspernatur ducimus maxime maiores ab corporis voluptatem, delectus aliquam error praesentium iure expedita?</div>
+                                       <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci dolorum vitae ullam architecto! Obcaecati veritatis similique quo voluptatibus illum atque, distinctio quaerat odit magni alias a id facere consectetur sint libero assumenda qui quisquam quae quas temporibus amet quod voluptatem! Saepe laboriosam dignissimos nihil neque iure quibusdam cum esse incidunt nisi rem facilis ut quia minima itaque eaque ullam in officia ab debitis, praesentium iste quisquam beatae adipisci eos! Aperiam recusandae quo eius. Amet nemo vitae illo cum eaque nihil animi repudiandae blanditiis quae sapiente rem asperiores explicabo accusantium esse aliquid neque itaque, aspernatur ad corrupti voluptatem nam, commodi sequi!</div>
                                        <div class="time_link">
     
                                            <div class="time">02:03</div>

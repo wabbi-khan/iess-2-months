@@ -7639,7 +7639,7 @@ ul {
 .topBg {
     background-color: purple;
     width: 100%;
-    /* height: 60px; */
+    border-radius: 5px 5px 0px 0px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -7654,19 +7654,22 @@ ul {
 .events {
     width: 100%;
     display: flex;
-    gap: 20px;
+    gap: 6px;
 }
 .date {
     position: relative;
-    width: 6%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .date::after {
     content: "";
     position: absolute;
     width: 4px;
-    height: 50px;
+    height: 100%;
     top: 0;
-    left: 55px;
+    left: 100px;
     background-color: red;
     border-radius: 40px;
     /* padding: 20px 2px; */
